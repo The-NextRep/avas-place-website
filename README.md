@@ -1,29 +1,42 @@
 # Ava's Place Foundation — Website
 
-Homepage for Ava's Place Foundation: free resources and self-paced courses for youth, families, the disability community and aspiring athletes.
+Live at **https://the-nextrep.github.io/avas-place-website/** (GitHub Pages, `main` branch).
 
-A plain static site — no build step. Open `index.html` in a browser to preview.
+A plain static site, no build step needed to publish. Open `index.html` in a browser to preview.
 
 ## Files
 
-- `index.html` — the homepage
-- `styles.css` — all styling (colors and fonts are set at the top under `:root`)
-- `favicon.svg` — browser tab icon
+- `index.html` — homepage (hero marquee, resources, course tracks, tiers, access/pricing, Bella books, get involved)
+- `courses.html` — full course catalog (**generated**, see below)
+- `styles.css` — all styling; brand colors and fonts are set at the top under `:root` (logo navy `#0B3A5C`, logo gold `#E0A93B`)
+- `site.js` — mobile menu and the marquee pause button
+- `images/` — logo (transparent `.webp`), Bella book covers, favicon, social share image
+- `tools/` — small scripts that generate parts of the site
 
-## Before launch: fill in the placeholders
+## Updating the course catalog
 
-Search `index.html` for `[` to find every placeholder:
+Course content lives in `tools/build_courses.py`. Edit it, then run:
 
-- Hero photo and Bella book cover images (drop files in an `images/` folder and swap the placeholder `<div>` for the `<img>` shown in the comment above it)
-- Mission statement and founder story
-- School license price
-- Resource items marked in brackets (mentorship, local directory, adaptive programs, recruiting/NIL, etc.)
-- Impact numbers
+```
+python3 tools/build_courses.py
+```
+
+## Adding photos to the hero marquee
+
+Put photos in `images/marquee/`, named by audience: `youth-1.jpg`, `families-1.jpg`, `disability-1.jpg`, `athletes-1.jpg` (as many of each as you like), then run:
+
+```
+python3 tools/build_marquee.py
+```
+
+Audiences without photos show branded tiles.
+
+## Still to fill in
+
+Search for `[` in `index.html` and `tools/courses.template.html`:
+
 - Contact email, city, nonprofit status / EIN
-- Donation link, Amazon link for the Bella books
+- Donation link and Amazon links for the Bella books
+- Founder story behind the name
+- Local support directory, adaptive programs & partners, advocacy & benefits guides
 - Newsletter form `action` URL (from your email provider)
-
-## Publish with GitHub Pages
-
-Settings → Pages → Source: **Deploy from a branch** → Branch: `main`, folder `/ (root)` → Save.
-GitHub Pages on a private repository requires a paid GitHub plan; on a public repo it's free.

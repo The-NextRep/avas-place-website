@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Course Catalog — Ava's Place Foundation</title>
+  <meta name="description" content="Eleven free life-skills mini-courses for K–12 and college: confidence, peer pressure, conflict, feedback, time management, resilience, critical thinking, SAT Prep and Entrepreneurship.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=Lora:ital,wght@0,600;0,700;1,600&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <meta property="og:image" content="https://the-nextrep.github.io/avas-place-website/images/og-ava-s-place.jpg">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="brand">
+        <img src="images/logo-mark.webp" width="360" height="223" alt="">
+        <span class="brand-name">Ava's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F4EEDF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#resources">Resources</a></li>
+        <li><a href="courses.html" aria-current="page">Courses</a></li>
+        <li><a href="index.html#access">Schools &amp; Families</a></li>
+        <li><a href="index.html#bella">Bella Books</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#donate" class="btn btn-accent">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero bg-sky">
+      <div class="container">
+        <p class="eyebrow">Course catalog</p>
+        <h1>Eleven free mini-courses for life after the script.</h1>
+        <p class="lead" style="margin-top:16px;max-width:720px">Nine courses run four short sessions and adapt to four learner tiers, from K–5 Sprouts to college Leaders. SAT Prep and Entrepreneurship are self-paced, six-module college-readiness courses. Every course is free for families.</p>
+        <nav class="toc" aria-label="Tracks">{{TOC}}</nav>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:56px;padding-bottom:24px">
+      <div class="container">
+        <div class="grid tier-grid">
+          <div class="card tier"><p class="level">K–5</p><h3>Sprouts</h3><p class="tier-time">20-minute sessions</p><p class="soft">Stories, games, movement and picture cards.</p></div>
+          <div class="card tier"><p class="level">Grades 6–8</p><h3>Builders</h3><p class="tier-time">30-minute sessions</p><p class="soft">Scenarios, pair work and simple trackers.</p></div>
+          <div class="card tier"><p class="level">Grades 9–12</p><h3>Launchers</h3><p class="tier-time">40-minute sessions</p><p class="soft">Case studies, role-play and personal plans.</p></div>
+          <div class="card tier"><p class="level">College &amp; first-year adults</p><h3>Leaders</h3><p class="tier-time">50 minutes or self-paced</p><p class="soft">Real-life projects, peer coaching and reflection writing.</p></div>
+        </div>
+        <p class="note">Each session runs <strong>Hook → Rep → Reflect</strong>, and each course ends with a <strong>Real-World Rep</strong> done outside the session. Learners log progress on a printable Rep Card. No grades, no tests.</p>
+      </div>
+    </section>
+{{SECTIONS}}
+
+    <section class="bg-ink" style="color:#F4EEDF">
+      <div class="container newsletter">
+        <div>
+          <h2 style="color:#FFFFFF">Bring Ava's Place to your school</h2>
+          <p style="color:#C9D3E1">Free for families. School licenses from $750 a year, and free for Title I schools through sponsors.</p>
+        </div>
+        <div class="btn-row">
+          <a href="index.html#access" class="btn btn-accent">See access options</a>
+          <a href="mailto:[CONTACT EMAIL]?subject=School%20license" class="btn btn-ghost">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <span class="footer-brand">Ava's Place Foundation</span>
+        <p>[CITY, VA] · [CONTACT EMAIL]</p>
+        <p>[NONPROFIT STATUS · EIN]</p>
+      </div>
+      <div>
+        <span class="footer-title">Tracks</span>
+        <a href="#track-yourself">Knowing yourself</a>
+        <a href="#track-others">Working with others</a>
+        <a href="#track-manage">Managing yourself</a>
+        <a href="#track-college">College readiness</a>
+      </div>
+      <div>
+        <span class="footer-title">Learn</span>
+        <a href="courses.html">Course catalog</a>
+        <a href="#c8">SAT Prep</a>
+        <a href="#c9">Entrepreneurship</a>
+      </div>
+      <div>
+        <span class="footer-title">Foundation</span>
+        <a href="index.html#about">About</a>
+        <a href="index.html#bella">Bella Books</a>
+        <a href="index.html#donate">Donate</a>
+      </div>
+    </div>
+    <div class="container legal">© <span id="year">2026</span> Ava's Place Foundation. All rights reserved.</div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
