@@ -1,6 +1,6 @@
 # Ava's Place Foundation — Website
 
-Live at **https://the-nextrep.github.io/avas-place-website/** (GitHub Pages, `main` branch).
+Live at **https://avasplace.org** (GitHub Pages, `main` branch; also the-nextrep.github.io/avas-place-website).
 
 A plain static site, no build step needed to publish. Open `index.html` in a browser to preview.
 
