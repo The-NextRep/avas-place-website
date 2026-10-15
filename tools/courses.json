@@ -888,5 +888,460 @@
    "I can read a pay stub and know where my money went",
    "I understand how credit and health insurance work"
   ]
+ },
+ "15": {
+  "n": 15,
+  "heading": "Emotional Intelligence",
+  "idea": "Emotions aren't good or bad; they're information. Learners build a bigger feelings vocabulary, read what others are feeling, and manage big emotions so they can choose how to respond instead of reacting.",
+  "tool": "the 3 Ns. Name it (find the exact feeling word) · Notice it (where it shows up in your body and what it's telling you) · Navigate it (pick a move: breathe, move, talk it out or take a break).",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Check in with yourself three times a day for a week using the 3 Ns, and log one moment when you chose your response instead of reacting.",
+  "facilitator": "Emotional skills practice is not therapy. If a student shares ongoing sadness, anxiety or thoughts of hurting themselves, connect them with a counselor right away. Share counselor contacts in Session 1.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Feelings-face cards, a feelings thermometer, and calm-down corner moves like balloon breathing."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "A bigger feelings vocabulary, reading tone in texts and group chats, and a personal calm-down plan."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Emotions under pressure in tests, games and relationships; empathy in conflict; journaling your triggers."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Emotional intelligence at work and in leadership, giving and hearing hard news, and managing first-year stress."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "More Than Mad, Sad, Glad",
+    "hook": "How many feeling words can you list in one minute?",
+    "rep": "Build a feelings ladder from mild to intense (annoyed → frustrated → furious) and match feelings to real situations"
+   },
+   {
+    "num": 2,
+    "title": "Read the Room",
+    "hook": "Watch a scene with the sound off: what is each person feeling?",
+    "rep": "Guess feelings from faces and body language, then check by asking; practice saying \"It sounds like you feel…\""
+   },
+   {
+    "num": 3,
+    "title": "The Pause Button",
+    "hook": "A moment when a feeling made the choice for you",
+    "rep": "Try three reset moves (box breathing, a short walk, a name-it sentence) and pick your go-to"
+   },
+   {
+    "num": 4,
+    "title": "Feelings in Relationships",
+    "hook": "The same news, told two different ways",
+    "rep": "Share a feeling using \"I feel… when… I need…\" and practice answering a friend with empathy"
+   }
+  ],
+  "selfcheck": [
+   "I can name what I'm feeling",
+   "I can calm myself down before I react"
+  ]
+ },
+ "16": {
+  "n": 16,
+  "heading": "Bullying: Stand Strong, Stand Up",
+  "idea": "No one deserves to be bullied, and no one has to face it alone. Learners tell bullying apart from everyday conflict, practice what to do when it happens to them, and learn safe ways to step in for someone else.",
+  "tool": "the 4 Upstander Moves. Notice it · Name it (\"That's not cool\") · Support the person being targeted · Report it to a trusted adult. Pick the move that's safe for you; every one of them counts.",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Make one upstander move this week: check on someone, include someone who's left out, or report something you saw. Log what you did.",
+  "facilitator": "Never ask a targeted student to work it out face to face with the person bullying them; forced mediation can make things worse. Follow your school's bullying policy and reporting process. Bullying based on race, disability, sex or other protected traits may also be harassment schools are required to address. Watch for signs of distress and connect students with a counselor. More guidance: StopBullying.gov.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Puppet scenes about teasing, leaving others out and unkind words. Practice a strong voice, walking away and telling a grown-up."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Group chats, rumors and exclusion; what an upstander can do in the hallway and online."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Cyberbullying, hazing and harassment; documenting and reporting; supporting a friend who's being targeted."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Hazing, harassment and workplace bullying; your rights and the campus and workplace reporting channels."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Bullying or Conflict?",
+    "hook": "Three scenes: a bad day, a disagreement, and someone targeted again and again",
+    "rep": "Sort scenarios into conflict, a mean moment or bullying (repeated, a power imbalance, meant to hurt)"
+   },
+   {
+    "num": 2,
+    "title": "If It's Happening to You",
+    "hook": "What bullying depends on: silence and feeling alone",
+    "rep": "Practice a calm, confident response, script how to tell a trusted adult, and map your safe people and places"
+   },
+   {
+    "num": 3,
+    "title": "From Bystander to Upstander",
+    "hook": "Most bullying happens with other kids watching",
+    "rep": "Role-play the 4 Upstander Moves and choose the one that's safest for you"
+   },
+   {
+    "num": 4,
+    "title": "Online and Offline",
+    "hook": "Cyberbullying follows you home",
+    "rep": "Practice screenshot, block, report and tell; write a group pledge for how you'll treat each other online"
+   }
+  ],
+  "selfcheck": [
+   "I can tell the difference between conflict and bullying",
+   "I know what I'd do if I saw someone being bullied"
+  ]
+ },
+ "17": {
+  "n": 17,
+  "heading": "Smart About AI",
+  "idea": "AI is in homework, games and phones. Learners find out what AI is and isn't, catch it when it's wrong, protect their privacy and use it honestly, with families learning alongside.",
+  "tool": "the AI Check. Who made it and what is it for? · Is it right? Check it against a trusted source · Is it safe to share? Never personal information · Is it honest to use here? Follow your teacher's rules and say when you used it.",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Do an AI Check on one AI answer with a family member and talk about what you found.",
+  "facilitator": "Follow your school's AI and acceptable-use policies and each tool's age requirements; many AI tools don't allow children under 13. Every lesson can be taught without students using an AI tool. Present AI's limits and risks alongside its benefits.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Robot-or-person guessing games, \"AI makes mistakes too,\" and never typing your name or address. Best done with a parent or teacher."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "AI in games and apps, fact-checking, fake images and videos, and your school's AI rules."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Using AI to study vs. to cheat, spotting AI-made misinformation, and how AI is changing jobs."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "AI at college and work, citing AI use, privacy and data, and writing your own AI-use rules."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "What Is AI, Really?",
+    "hook": "Is a calculator AI? A video game character? A chatbot?",
+    "rep": "Sort everyday tools into AI or not, and explain in your own words how AI learns from examples"
+   },
+   {
+    "num": 2,
+    "title": "When AI Gets It Wrong",
+    "hook": "An AI answer that sounds sure of itself but is wrong",
+    "rep": "Fact-check three AI answers against a trusted source and spot made-up details"
+   },
+   {
+    "num": 3,
+    "title": "Private Means Private",
+    "hook": "What happens to what you type into an app?",
+    "rep": "Make a \"never share\" list and check the privacy settings on one app with a parent"
+   },
+   {
+    "num": 4,
+    "title": "Using AI Honestly",
+    "hook": "Two students use AI on the same essay: one learns, one copies",
+    "rep": "Write your own AI-use rules for homework and practice telling a teacher how you used AI"
+   }
+  ],
+  "selfcheck": [
+   "I can explain what AI is and isn't",
+   "I check AI answers before I trust them"
+  ]
+ },
+ "18": {
+  "n": 18,
+  "heading": "Find Your People",
+  "idea": "Lots of young people feel lonely, even when they're always online, and making friends is a skill anyone can practice. Learners practice starting conversations, joining in, keeping friendships strong and repairing them when things go wrong.",
+  "tool": "the Friendship Loop. Show up (go where people are) · Start small (a question or a compliment) · Follow up (remember something and come back to it) · Repair (own it when things go wrong).",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Try one Friendship Loop step this week, in person if you can, and log what happened.",
+  "facilitator": "Some students feel deeply isolated. Watch for signs of ongoing loneliness or withdrawal and connect them with a counselor. This course pairs well with Emotional Intelligence and Bullying.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Joining a game at recess, taking turns, and what to do when you feel left out."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Friend groups that shift, group chats, and finding a club or team that fits you."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Balancing screen time with in-person time, finding your people after a move, and healthy vs. draining friendships."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Making friends in college or a new city, roommates and clubs, and loneliness in the first year."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Where Are Your People?",
+    "hook": "Map where you spend your time, online and in person",
+    "rep": "List three places to meet people who share an interest, and pick one to try"
+   },
+   {
+    "num": 2,
+    "title": "Conversation Starters",
+    "hook": "The awkward first ten seconds",
+    "rep": "Practice openers, follow-up questions and friendly ways to end a conversation"
+   },
+   {
+    "num": 3,
+    "title": "Keeping Friends",
+    "hook": "Friendships fade without small check-ins",
+    "rep": "Plan one follow-up: a message, an invite, or remembering something they told you"
+   },
+   {
+    "num": 4,
+    "title": "Repairing a Friendship",
+    "hook": "A friend is upset with you",
+    "rep": "Practice an apology that names what happened, owns it and asks how to make it right"
+   }
+  ],
+  "selfcheck": [
+   "I know how to start a conversation with someone new",
+   "I have people I can count on"
+  ]
+ },
+ "19": {
+  "n": 19,
+  "heading": "Hired: First Job Ready",
+  "idea": "Landing and keeping a first job takes skills most schools don't teach. Learners build a first resume, practice interviewing, and learn the workplace habits employers say new hires are missing.",
+  "tool": "the Hired Habits. Show up on time · Communicate clearly by text, email and in person · Own your mistakes · Ask for feedback.",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Apply for one real job, internship or volunteer role, or do a full mock interview with an adult.",
+  "facilitator": "Rules for teen workers (hours, work permits and which jobs are allowed) vary by age and state, so check your state's labor department. Invite local employers to run mock interviews.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Classroom jobs, being on time, and being someone others can count on."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "First ways to earn (babysitting, pet sitting, yard work), a simple flyer, and being reliable."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "A first part-time job, work permits and hour rules, a resume and your first interview."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Internships, a professional online profile, professional email, and your first full-time role."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Your First Resume",
+    "hook": "Two resumes from the same teen: which one gets the call?",
+    "rep": "Build a one-page resume from school, sports, volunteering and side jobs"
+   },
+   {
+    "num": 2,
+    "title": "Applying and Interviewing",
+    "hook": "The first 30 seconds of an interview",
+    "rep": "Practice answers to five common questions, then do a mock interview with feedback"
+   },
+   {
+    "num": 3,
+    "title": "Workplace Communication",
+    "hook": "A text to a manager that went wrong",
+    "rep": "Rewrite messages to a manager: calling out sick, asking for time off, asking a question"
+   },
+   {
+    "num": 4,
+    "title": "Keeping the Job",
+    "hook": "Why some new hires don't make it past the first months",
+    "rep": "Practice owning a mistake, asking for feedback, and asking for more hours"
+   }
+  ],
+  "selfcheck": [
+   "I have a resume I'm proud of",
+   "I know how to talk to a manager professionally"
+  ]
+ },
+ "20": {
+  "n": 20,
+  "heading": "Build Your Future: Trades & Careers",
+  "idea": "College isn't the only road. Learners explore skilled trades and other career paths, from electrician, HVAC, plumbing and welding to manufacturing and more, and compare apprenticeships, certificates and college side by side.",
+  "tool": "the Path Compare. For any path: what you'd do all day · how long the training takes and what it costs · how you can earn while you learn · what it pays and where it can lead.",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Talk to one person who works in a trade or career you're curious about, and write down three things you learned.",
+  "facilitator": "Invite local tradespeople, unions and community colleges to speak. Use the Bureau of Labor Statistics Occupational Outlook Handbook (bls.gov/ooh) for current pay and job outlook.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Community helpers who build and fix things, and simple building challenges."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "A career interest quiz, tool and safety basics, and career and technical classes to look for in high school."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Apprenticeships, career and technical education, dual enrollment and industry certifications."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Changing paths, short certificate programs, union and employer apprenticeships, and starting a trade business."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Hands-On Careers",
+    "hook": "Guess the training time for five careers",
+    "rep": "Explore three trades: what each does, the training and the job outlook, using the Occupational Outlook Handbook"
+   },
+   {
+    "num": 2,
+    "title": "Earn While You Learn",
+    "hook": "An apprentice and a college student, four years later",
+    "rep": "Compare an apprenticeship, a certificate and a degree with the Path Compare"
+   },
+   {
+    "num": 3,
+    "title": "Try It Out",
+    "hook": "A day in the life of a tradesperson",
+    "rep": "Do a hands-on challenge, like wiring a simple circuit or measuring and building, or set up a job shadow"
+   },
+   {
+    "num": 4,
+    "title": "Your Path Plan",
+    "hook": "Choosing a direction without boxing yourself in",
+    "rep": "Write a plan: classes, programs or apprenticeships to look into, and one person to talk to"
+   }
+  ],
+  "selfcheck": [
+   "I know at least three career paths that don't require a four-year degree",
+   "I have a next step for exploring a career"
+  ]
+ },
+ "21": {
+  "n": 21,
+  "heading": "My Voice, My Plan",
+  "idea": "You are the expert on you. Students with disabilities, and anyone who needs support, practice knowing their strengths and needs, speaking up for them, leading their own plans and knowing their rights at school, in college and at work.",
+  "tool": "the Self-Advocacy Script. What I'm good at · What helps me · What I'm asking for · Why it helps me do my best.",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Use the Self-Advocacy Script once this week to ask for something that helps you.",
+  "facilitator": "Build this with families and the student's support team. Offer accessible formats (large print, read-aloud, captions, extra time) and let students share only what they're comfortable sharing. Remind older students that after high school, supports don't follow them automatically; they have to ask. Plain-language rights information: the ADA National Network (adata.org).",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Naming what helps me learn, using a \"help card,\" and asking a grown-up for a break or for help."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Understanding your own learning profile, joining part of your IEP or 504 meeting, and asking teachers for support."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Leading your IEP meeting, transition planning, and practicing how to ask for accommodations in college and at work."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Registering with college disability services, workplace accommodations, your rights under the ADA, and building a support team."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Know Yourself",
+    "hook": "Two students describe the same challenge: one by what they can't do, one by what helps",
+    "rep": "Make a one-page profile: strengths, challenges, what helps and what doesn't"
+   },
+   {
+    "num": 2,
+    "title": "Speak Up",
+    "hook": "Asking a teacher for help vs. waiting and hoping",
+    "rep": "Use the Self-Advocacy Script to ask for an accommodation or support"
+   },
+   {
+    "num": 3,
+    "title": "Lead Your Meeting",
+    "hook": "A student who led their own IEP or 504 meeting",
+    "rep": "Plan and rehearse leading part of your own IEP, 504 or support meeting"
+   },
+   {
+    "num": 4,
+    "title": "Know Your Rights, Plan Your Next Step",
+    "hook": "After high school, you have to ask for supports yourself",
+    "rep": "Map your next steps: college disability services, workplace accommodations and who to contact"
+   }
+  ],
+  "selfcheck": [
+   "I can explain what helps me learn and work best",
+   "I'm comfortable asking for what I need"
+  ]
  }
 }

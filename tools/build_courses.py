@@ -8,11 +8,11 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 e = html.escape
 
 TRACKS = [
-    ("track-yourself", "Knowing yourself", "#E0A93B", [10, 11]),
-    ("track-others", "Working with others", "#2E8B6E", [1, 2, 3]),
+    ("track-yourself", "Knowing yourself", "#E0A93B", [10, 15, 11, 21]),
+    ("track-others", "Working with others", "#2E8B6E", [16, 18, 2, 1, 3]),
     ("track-manage", "Managing yourself", "#0B3A5C", [4, 5, 6, 7]),
-    ("track-college", "College readiness", "#A8452F", [8, 9]),
-    ("track-ready", "Real-world readiness", "#6B4FA0", [14, 12, 13]),
+    ("track-college", "College & career readiness", "#A8452F", [19, 20, 8, 9]),
+    ("track-ready", "Real-world readiness", "#6B4FA0", [14, 12, 17, 13]),
 ]
 
 STD = "4 sessions · all four learner tiers"
@@ -200,7 +200,42 @@ COURSES = {
                ("Launchers", "A first paycheck, W-4, tax return and credit basics."),
                ("Leaders", "Filing alone, student loans and choosing a health plan.")],
         rep="Build your own Money Map for a real or sample month."),
+    15: dict(
+        title="Emotional Intelligence", meta=STD,
+        idea="Emotions are information. Build a bigger feelings vocabulary, read what others feel, and manage big emotions so you choose how to respond.",
+        tool=("The 3 Ns", "Name it · Notice it · Navigate it."),
+        sessions=[("More Than Mad, Sad, Glad", "Build a feelings ladder from mild to intense."),
+                  ("Read the Room", "Read faces and body language, then check by asking."),
+                  ("The Pause Button", "Try three reset moves and pick your go-to."),
+                  ("Feelings in Relationships", "Share a feeling with \"I feel… when… I need…\"")],
+        tiers=[("Sprouts", "Feelings-face cards and a feelings thermometer."),
+               ("Builders", "Reading tone in texts and a calm-down plan."),
+               ("Launchers", "Emotions under pressure and empathy in conflict."),
+               ("Leaders", "Emotional intelligence at work and in leadership.")],
+        rep="Check in with the 3 Ns three times a day for a week."),
+    16: dict(
+        title="Bullying: Stand Strong, Stand Up", meta=STD,
+        idea="No one deserves to be bullied or has to face it alone. Tell bullying apart from conflict, know what to do if it happens to you, and step in safely for others.",
+        tool=("The 4 Upstander Moves", "Notice it · Name it · Support the person targeted · Report it."),
+        sessions=[("Bullying or Conflict?", "Sort scenarios: conflict, a mean moment or bullying."),
+                  ("If It's Happening to You", "Practice a confident response and how to tell an adult."),
+                  ("From Bystander to Upstander", "Role-play the 4 Upstander Moves."),
+                  ("Online and Offline", "Screenshot, block, report and tell.")],
+        tiers=[("Sprouts", "Puppet scenes, a strong voice and telling a grown-up."),
+               ("Builders", "Group chats, rumors and exclusion."),
+               ("Launchers", "Cyberbullying, hazing and supporting a friend."),
+               ("Leaders", "Hazing, harassment and reporting channels.")],
+        rep="Make one upstander move this week and log it."),
 }
+
+
+def from_json(n):
+    import json as _j
+    c = _j.loads((ROOT / "tools" / "courses.json").read_text())[str(n)]
+    name, _, rest = (c["tool"] or "").partition(". ")
+    return dict(title=c["heading"], meta=STD, idea=c["idea"], tool=(name[0].upper() + name[1:], rest),
+                sessions=[(x["title"], x["rep"][0].upper() + x["rep"][1:] + ".") for x in c["sessions"]],
+                tiers=[(t["tier"], t["text"]) for t in c["tiers"]], rep=c["rep"])
 
 
 def course_html(n, c, color):
@@ -231,7 +266,7 @@ def page():
     sections = []
     for i, (tid, name, color, nums) in enumerate(TRACKS):
         bg = " bg-mist" if i % 2 else ""
-        body = "\n".join(course_html(n, COURSES[n], color) for n in nums)
+        body = "\n".join(course_html(n, COURSES.get(n) or from_json(n), color) for n in nums)
         sections.append(f'''
     <section class="track-section{bg}" id="{tid}">
       <div class="container">
@@ -243,7 +278,7 @@ def page():
 
 
 def course_slug(n):
-    t = {8: "SAT Prep", 9: "Entrepreneurship"}.get(n, COURSES[n]["title"])
+    t = {8: "SAT Prep", 9: "Entrepreneurship"}.get(n, (COURSES.get(n) or from_json(n))["title"])
     return "course-" + re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-") + ".html"
 
 

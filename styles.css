@@ -550,3 +550,9 @@ p { margin: 0; }
 .anchor { display: block; position: relative; top: -96px; visibility: hidden; }
 .steps-row li { display: block; position: relative; padding: 14px 16px 14px 62px; min-height: 34px; }
 .steps-row span { position: absolute; left: 16px; top: 50%; translate: 0 -50%; }
+/* Social-emotional essentials band */
+.essentials { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px 32px; background: #FFF6E2; border: 2px solid var(--accent); border-radius: 22px; padding: 22px 26px; margin-bottom: 24px; }
+.ess-title { font-family: var(--display); font-weight: 700; font-size: 24px; margin: 2px 0 4px; }
+.ess-pills { display: flex; flex-wrap: wrap; gap: 10px; }
+.ess-pill { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #E8D3A2; color: var(--ink); font-weight: 700; text-decoration: none; }
+.ess-pill:hover { background: var(--accent); color: var(--ink); border-color: var(--accent); }

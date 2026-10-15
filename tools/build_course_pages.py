@@ -10,15 +10,15 @@ e = html.escape
 DATA = json.loads((ROOT / "tools" / "courses.json").read_text())
 
 TRACKS = [
-    ("track-yourself", "Knowing yourself", "#E0A93B", [10, 11]),
-    ("track-others", "Working with others", "#2E8B6E", [1, 2, 3]),
+    ("track-yourself", "Knowing yourself", "#E0A93B", [10, 15, 11, 21]),
+    ("track-others", "Working with others", "#2E8B6E", [16, 18, 2, 1, 3]),
     ("track-manage", "Managing yourself", "#0B3A5C", [4, 5, 6, 7]),
-    ("track-college", "College readiness", "#A8452F", [8, 9]),
-    ("track-ready", "Real-world readiness", "#6B4FA0", [14, 12, 13]),
+    ("track-college", "College & career readiness", "#A8452F", [19, 20, 8, 9]),
+    ("track-ready", "Real-world readiness", "#6B4FA0", [14, 12, 17, 13]),
 ]
 ORDER = [n for _, _, _, ns in TRACKS for n in ns]
 TRACK_OF = {n: (tid, name, color) for tid, name, color, ns in TRACKS for n in ns}
-TITLES = {8: "SAT Prep", 9: "Entrepreneurship", 13: "NIL & Recruiting"}
+TITLES = {8: "SAT Prep", 9: "Entrepreneurship", 13: "NIL & Recruiting", 16: "Bullying: Stand Strong, Stand Up"}
 TIER_TIME = {"Sprouts": "20 min", "Builders": "30 min", "Launchers": "40 min", "Leaders": "50 min or self-paced"}
 
 
@@ -194,10 +194,10 @@ print(f"Built {len(ORDER)} course pages + rep-card.html")
 CONTACT = "info@the-nextrep.com"   # where school / Title I / sponsor requests are emailed — change in one place
 
 PATHS = [
-    ("Sprouts", "Grades K–5", "20-minute sessions with stories, games and picture cards. Best done with a parent or teacher.", [10, 6, 3, 4, 12, 14]),
-    ("Builders", "Grades 6–8", "30-minute sessions with scenarios, partner practice and simple trackers.", [10, 11, 6, 4, 2, 12, 14]),
-    ("Launchers", "Grades 9–12", "40-minute sessions with case studies, role-play and personal plans.", [10, 6, 4, 1, 12, 14, 8, 13]),
-    ("Leaders", "College & first-year adults", "Self-paced or 50-minute sessions with real-life projects and reflection.", [10, 6, 5, 1, 14, 12, 9]),
+    ("Sprouts", "Grades K–5", "20-minute sessions with stories, games and picture cards. Best done with a parent or teacher.", [10, 15, 16, 18, 6, 12, 17, 14]),
+    ("Builders", "Grades 6–8", "30-minute sessions with scenarios, partner practice and simple trackers.", [10, 15, 11, 16, 18, 6, 4, 12, 17, 14]),
+    ("Launchers", "Grades 9–12", "40-minute sessions with case studies, role-play and personal plans.", [10, 15, 6, 11, 4, 14, 12, 19, 20, 8, 13]),
+    ("Leaders", "College & first-year adults", "Self-paced or 50-minute sessions with real-life projects and reflection.", [10, 15, 6, 5, 14, 19, 17, 9]),
 ]
 
 
@@ -223,7 +223,9 @@ def start_page():
       <div class="container">
         <div class="section-head"><p class="eyebrow">Suggested paths</p><h2>Choose your stage.</h2><p class="soft" style="margin-top:10px">Each course stands alone, so feel free to jump to whatever you need most. These orders build on each other.</p></div>
         <div class="grid path-grid">{"".join(cards)}</div>
-        <div class="card info-card" style="margin-top:28px"><p class="level">Athletes</p><p>Add <a href="{slug(13)}">NIL &amp; Recruiting</a> (grades 9–12 and college) to any path, with a track for parents and guardians.</p></div>
+        <div class="card info-card" style="margin-top:28px"><p class="level">Social-emotional essentials</p><p>New to Ava's Place? These five build the inner skills everything else rests on: <a href="{slug(10)}">Confidence</a>, <a href="{slug(15)}">Emotional Intelligence</a>, <a href="{slug(11)}">Peer Pressure</a>, <a href="{slug(16)}">Bullying</a> and <a href="{slug(6)}">Resilience</a>.</p></div>
+        <div class="card info-card" style="margin-top:16px"><p class="level">Students with disabilities</p><p>Add <a href="{slug(21)}">My Voice, My Plan</a> to any path to practice self-advocacy, lead your own IEP or 504 meeting, and plan for college and work.</p></div>
+        <div class="card info-card" style="margin-top:16px"><p class="level">Athletes</p><p>Add <a href="{slug(13)}">NIL &amp; Recruiting</a> (grades 9–12 and college) to any path, with a track for parents and guardians.</p></div>
         <p class="note">Prefer to browse? See the <a href="courses.html">full course catalog</a>.</p>
       </div>
     </section>
@@ -272,7 +274,7 @@ def schools_page():
       <div class="container">
         <p class="eyebrow">Schools, districts &amp; colleges</p>
         <h1>Bring Ava's Place to your students.</h1>
-        <p class="lead" style="margin-top:14px;max-width:780px">All 14 courses are free for families. Schools and colleges pay one flat yearly fee for the training, support and reporting around them, and Title I schools get the full package free through sponsors.</p>
+        <p class="lead" style="margin-top:14px;max-width:780px">All 21 courses are free for families. Schools and colleges pay one flat yearly fee for the training, support and reporting around them, and Title I schools get the full package free through sponsors.</p>
         <div class="btn-row" style="margin-top:20px"><a href="#request" class="btn btn-primary">Request a license</a><a href="#title-i" class="btn btn-outline">Title I schools</a></div>
       </div>
     </section>
