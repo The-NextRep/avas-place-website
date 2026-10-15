@@ -25,7 +25,9 @@ TILES_PER_ROW = 8
 def photos_for(key):
     if not PHOTOS.exists():
         return []
-    return sorted(p for p in PHOTOS.iterdir() if p.name.startswith(key) and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"})
+    files = [p for p in PHOTOS.iterdir() if p.name.startswith(key)]
+    photos = sorted(p for p in files if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"})
+    return photos or sorted(p for p in files if p.suffix.lower() == ".svg")  # real photos win over illustrations
 
 
 def tile(key, n):

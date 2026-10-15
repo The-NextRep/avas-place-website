@@ -2,7 +2,7 @@
 
 Edit the COURSES list, then run:  python3 tools/build_courses.py
 """
-import pathlib, html
+import pathlib, html, re, runpy
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 e = html.escape
@@ -181,6 +181,7 @@ def course_html(n, c, color):
             s.append(f'<dt>{e(t)}</dt><dd>{e(d)}</dd>')
         s.append('</dl></details>')
     s.append(f'<p class="rw-rep"><strong>Real-World Rep:</strong> {e(c["rep"])}</p>')
+    s.append(f'<a class="btn btn-primary self-start open-course" href="{course_slug(n)}">Open the course</a>')
     s.append('</article>')
     return "\n".join(s)
 
@@ -201,6 +202,12 @@ def page():
     return TEMPLATE.replace("{{TOC}}", toc).replace("{{SECTIONS}}", "".join(sections))
 
 
+def course_slug(n):
+    t = {8: "SAT Prep", 9: "Entrepreneurship"}.get(n, COURSES[n]["title"])
+    return "course-" + re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-") + ".html"
+
+
 TEMPLATE = (ROOT / "tools" / "courses.template.html").read_text()
 (ROOT / "courses.html").write_text(page())
 print("courses.html built.")
+runpy.run_path(str(ROOT / "tools" / "build_course_pages.py"))

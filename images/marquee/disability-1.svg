@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="600" height="400">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E8577"/><stop offset="1" stop-color="#A9DCCF"/></linearGradient></defs>
+<rect width="300" height="200" fill="url(#sky)"/>
+<circle cx="238" cy="46" r="34" fill="#FFE7A3" opacity="0.35"/><circle cx="238" cy="46" r="20" fill="#FFE7A3" opacity="0.75"/>
+<path d="M0 168 Q150 150 300 168 V200 H0 Z" fill="#6E9C6A"/>
+<circle cx="118.0" cy="156.0" r="25.0" fill="none" stroke="#1B2433" stroke-width="4.0"/>
+<circle cx="118.0" cy="156.0" r="19.0" fill="none" stroke="#CFD6DE" stroke-width="2.0"/>
+<circle cx="150.0" cy="176.0" r="6.0" fill="none" stroke="#1B2433" stroke-width="3.0"/>
+<path d="M106.0 108.0 L108.0 148.0 L146.0 148.0 L150.0 174.0" fill="none" stroke="#1B2433" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M118.0 142.0 L142.0 142.0 L144.0 172.0" fill="none" stroke="#0B3A5C" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="108.0" y="102.0" width="24.0" height="42.0" rx="10.0" fill="#F2B33D"/>
+<line x1="110.0" y1="108.0" x2="96.0" y2="126.0" stroke="#E0AC69" stroke-width="6.5" stroke-linecap="round"/>
+<line x1="130.0" y1="108.0" x2="146.0" y2="78.0" stroke="#E0AC69" stroke-width="6.5" stroke-linecap="round"/>
+<circle cx="120.0" cy="90.0" r="11.0" fill="#E0AC69"/>
+<path d="M108.5 89.0 A11.5 11.5 0 0 1 131.5 89.0 Q120.0 84.0 108.5 89.0 Z" fill="#2B1A10"/><line x1="199.3" y1="142.1" x2="198.4" y2="180.1" stroke="#2B2B2B" stroke-width="7.6" stroke-linecap="round"/>
+<line x1="210.7" y1="142.1" x2="211.6" y2="180.1" stroke="#2B2B2B" stroke-width="7.6" stroke-linecap="round"/>
+<rect x="192.7" y="105.0" width="24.7" height="39.9" rx="9.5" fill="#0B3A5C"/>
+<line x1="194.6" y1="111.7" x2="179.4" y2="83.2" stroke="#8D5524" stroke-width="6.2" stroke-linecap="round"/>
+<line x1="215.4" y1="111.7" x2="220.2" y2="140.2" stroke="#8D5524" stroke-width="6.2" stroke-linecap="round"/>
+<circle cx="205.0" cy="94.6" r="10.4" fill="#8D5524"/>
+<path d="M194.1 93.7 A10.9 10.9 0 0 1 215.9 93.7 Q205.0 88.9 194.1 93.7 Z" fill="#1E140C"/>
+</svg>

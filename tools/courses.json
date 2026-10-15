@@ -1,0 +1,705 @@
+{
+ "1": {
+  "n": 1,
+  "heading": "Handling Uncertainty & Ambiguity",
+  "idea": "When there is no script, you can still take a first step. Learners practice breaking open-ended problems into \"what I know, what I don't, what I can try.\"",
+  "tool": "the Know / Don't Know / Try card. Three boxes learners fill in whenever a task feels unclear.",
+  "who": null,
+  "test": null,
+  "rep": "Pick one unclear task this week. Fill the card before starting, then note what actually happened.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": null,
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "\"Mystery Box\" game: guess what's inside using clues, then say one thing they know and one thing they want to find out. Picture-based Try card."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "A group project brief with deliberately vague requirements. Teams must write their own three success criteria before starting."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Open-ended case: \"Your part-time job's manager quits mid-shift.\" Students map options and pick a first move with a reason."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "Take a real ambiguous assignment or syllabus prompt. Write the Know / Don't Know / Try card, draft two questions for the professor, and submit one early draft."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "No Instructions Included",
+    "hook": "Hand out a task with missing directions (build a tower, plan an event) and watch what happens",
+    "rep": "Fill the Know / Don't Know / Try card for the task, then attempt it"
+   },
+   {
+    "num": 2,
+    "title": "Good Questions Beat Guesses",
+    "hook": "Show two people facing the same unclear task: one guesses, one asks",
+    "rep": "Practice turning \"I don't get it\" into one specific question"
+   },
+   {
+    "num": 3,
+    "title": "Small Bets",
+    "hook": "Story of an inventor or athlete who tested many small ideas",
+    "rep": "Try three quick versions of a solution; keep the one that works best"
+   },
+   {
+    "num": 4,
+    "title": "Comfortable With Not Knowing",
+    "hook": "Name the feeling: \"stuck\" is a signal, not a stop sign",
+    "rep": "Group challenge that changes rules halfway through; debrief how they adapted"
+   }
+  ],
+  "selfcheck": [
+   "I can start a task even when directions are unclear",
+   "I know how to ask a good question"
+  ]
+ },
+ "2": {
+  "n": 2,
+  "heading": "Conflict Resolution & Compromise",
+  "idea": "Disagreement is normal; how you handle it is a skill. Learners separate the problem from the person and look for the need underneath each position.",
+  "tool": "the PAUSE method. Pause and breathe · Ask what happened from their side · Understand the need behind it · Share your side with an \"I\" statement · Explore options that meet both needs.",
+  "who": null,
+  "test": null,
+  "rep": "Use PAUSE in one real disagreement. Note which step was hardest.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": "This course practices everyday peer conflict. Situations involving bullying, harassment or safety go to a trusted adult or campus staff, and facilitators should say so in Session 1.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Puppet or picture-card role-plays about sharing, taking turns and being left out. \"Peace Path\" floor mat walked step by step."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Group-chat and lunch-table scenarios, including online misunderstandings. Practice a respectful \"can we talk?\" opener."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Team-project free-rider, sibling curfew fight, sports playing-time dispute. Students negotiate a written compromise."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "Roommate agreement lab: pairs draft a shared-living agreement (noise, guests, cleaning). Plus a workplace scenario with a coworker who missed their part."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Same Story, Two Sides",
+    "hook": "Retell a short conflict from each person's view",
+    "rep": "Rewrite a blame sentence (\"You always…\") as an \"I\" statement"
+   },
+   {
+    "num": 2,
+    "title": "Listen to Understand",
+    "hook": "Game of telephone shows how messages get twisted",
+    "rep": "Partner listening: repeat back what you heard before replying"
+   },
+   {
+    "num": 3,
+    "title": "Needs, Not Positions",
+    "hook": "Two kids want the same orange: one wants juice, one wants the peel",
+    "rep": "Identify the need behind three common arguments"
+   },
+   {
+    "num": 4,
+    "title": "Find the Middle",
+    "hook": "Show a win-lose, a lose-lose and a win-win ending",
+    "rep": "Role-play a conflict start to finish using PAUSE"
+   }
+  ],
+  "selfcheck": [
+   "I can listen to someone I disagree with",
+   "I can find a compromise"
+  ]
+ },
+ "3": {
+  "n": 3,
+  "heading": "Absorbing & Applying Feedback",
+  "idea": "Feedback is about the work, not your worth. Learners practice hearing it, sorting it and using it.",
+  "tool": "Hear it, Sort it, Use it. Hear it without defending. Sort each comment into \"use now,\" \"ask about\" or \"set aside.\" Use one piece right away.",
+  "who": null,
+  "test": null,
+  "rep": "Ask someone for feedback on one thing you made this week. Use one comment and log the result.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": null,
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "\"Two Stars and a Wish\" drawing critique. Kids practice saying \"thank you\" and trying the wish on a second drawing."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Peer review of a short paragraph or poster with sentence starters (\"One thing that worked…\" / \"One thing to try…\")."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Essay or lab report with teacher-style comments; students write a revision plan. Add a mock job-interview debrief."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "Bring a real graded paper or supervisor note. Draft a professional reply email and a three-step revision plan. Practice asking a professor for feedback in office hours."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Work ≠ Worth",
+    "hook": "Coach's-eye clip or story: an athlete gets corrected and improves",
+    "rep": "Write \"The feedback is about ___, not about me\" for three sample comments"
+   },
+   {
+    "num": 2,
+    "title": "The Sting Is Normal",
+    "hook": "Name the body's reaction to criticism (hot face, urge to argue)",
+    "rep": "Receive practice feedback and respond only with \"Thanks, tell me more\""
+   },
+   {
+    "num": 3,
+    "title": "Sort the Pile",
+    "hook": "A stack of mixed feedback on one project: helpful, vague, unkind",
+    "rep": "Sort each comment into Use / Ask / Set Aside"
+   },
+   {
+    "num": 4,
+    "title": "Revise and Resubmit",
+    "hook": "Show a first draft and its improved version side by side",
+    "rep": "Revise one piece of their own work using one comment; share the before and after"
+   }
+  ],
+  "selfcheck": [
+   "I can hear criticism without getting defensive",
+   "I use feedback to improve"
+  ]
+ },
+ "4": {
+  "n": 4,
+  "heading": "Time Management & Prioritizing",
+  "idea": "You can't do everything, so choose on purpose. Learners sort tasks by importance, protect focus time and plan around their real energy.",
+  "tool": "the Big Rocks priority sort (Must / Should / Could), and the Energy Ledger, a daily check of school load, social load and physical tiredness before planning.",
+  "who": null,
+  "test": null,
+  "rep": "Run one week with a Big Rocks list each morning. Count how many Musts got done.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": null,
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Picture schedule and \"first-then\" boards. Sand-timer races to feel how long 5 minutes is."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Paper planner setup, homework-before-screens routine, and a 10-minute focus sprint."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Balance school, a job, sports and family. Build a weekly plan with the Energy Ledger; 20-minute focus sprints."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "Syllabus-to-semester map: every deadline from every class on one calendar. Build a weekly schedule with class, work, study blocks and rest. 25-minute focus sprints."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Big Rocks First",
+    "hook": "Jar demo: rocks, pebbles, sand; order changes what fits",
+    "rep": "Sort a week of real tasks into Must / Should / Could"
+   },
+   {
+    "num": 2,
+    "title": "Where Did the Time Go?",
+    "hook": "Guess vs. actual: how long do common tasks really take?",
+    "rep": "Time-log one afternoon; compare guesses to reality"
+   },
+   {
+    "num": 3,
+    "title": "The Phone Problem",
+    "hook": "Count notifications during a 10-minute task",
+    "rep": "Try a phone-away focus sprint (10–25 min by tier) and compare output"
+   },
+   {
+    "num": 4,
+    "title": "Plan Backward",
+    "hook": "Show a project due in two weeks and the panic the night before",
+    "rep": "Break one assignment into dated steps on a calendar"
+   }
+  ],
+  "selfcheck": [
+   "I know what matters most this week",
+   "I can focus without my phone"
+  ]
+ },
+ "5": {
+  "n": 5,
+  "heading": "Self-Direction & Initiative",
+  "idea": "Nobody is going to tell you every step, and that's your chance. Learners set their own goals, start without being told and hold themselves accountable.",
+  "tool": "the Own-It Loop. Choose a goal · Set the first step · Start before you feel ready · Check in with yourself · Adjust.",
+  "who": null,
+  "test": null,
+  "rep": "Start one thing this week before anyone reminds you. Log when you started and what happened.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": null,
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Classroom \"helper who notices\" game: spot something that needs doing and do it without being asked. Sticker chart for self-started jobs."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Choose-your-own mini project (two weeks) with a self-made checklist and check-in dates."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Personal passion project or job/college application plan with milestones they set and track themselves."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "\"No one is taking attendance\" lab: design a personal semester system (study hours, office hours visits, campus resources). Pair up as accountability partners with weekly check-ins."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Waiting vs. Starting",
+    "hook": "Two students, same assignment: one waits for reminders, one starts",
+    "rep": "List three things they usually wait to be told to do"
+   },
+   {
+    "num": 2,
+    "title": "My Why",
+    "hook": "Short story of someone driven by a personal reason",
+    "rep": "Write a personal \"why\" for one goal"
+   },
+   {
+    "num": 3,
+    "title": "The 2-Minute Start",
+    "hook": "Show how starting is the hardest part",
+    "rep": "Pick a stalled task and do only the first 2 minutes"
+   },
+   {
+    "num": 4,
+    "title": "Be Your Own Coach",
+    "hook": "Compare a coach checking in vs. no one checking",
+    "rep": "Set up a self-check-in routine and an accountability buddy"
+   }
+  ],
+  "selfcheck": [
+   "I start things without reminders",
+   "I check my own progress"
+  ]
+ },
+ "6": {
+  "n": 6,
+  "heading": "Resilience & Perseverance",
+  "idea": "A setback is data, not a verdict. Learners practice the bounce-back cycle so a bad grade or failed try becomes the next attempt, not the end.",
+  "tool": "the Reset Rep. Feel it (name the emotion) · Face it (what actually happened?) · Fix one thing · Try again.",
+  "who": null,
+  "test": null,
+  "rep": "Next time something goes wrong, run the Reset Rep and log your second attempt.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": "Some students carry heavier setbacks than a bad grade. Share school counselor or campus counseling contacts in Session 1, and refer anyone who seems in distress.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "\"Yet\" power word (\"I can't do it… yet\"). Block-tower or balloon-balance game with multiple tries."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Low-stakes \"Friction Reps\": short speaking-in-front-of-group turns and tough puzzles, getting a bit harder each round."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Post-test recovery plan after a real bad grade, plus a college/job rejection role-play and response."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "First-semester setback plan: midterm recovery, when to visit tutoring or the professor, withdrawal vs. push-through decision, and campus support resources."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Everyone Misses",
+    "hook": "Famous failures: rejected authors, cut athletes, failed first products",
+    "rep": "Share (or write privately) one time they failed and what came after"
+   },
+   {
+    "num": 2,
+    "title": "Name It to Tame It",
+    "hook": "How stress feels in the body; box breathing",
+    "rep": "Practice a 60-second reset: breathe, name the feeling, one next step"
+   },
+   {
+    "num": 3,
+    "title": "Autopsy, Not Attack",
+    "hook": "Compare \"I'm bad at math\" with \"I missed questions 4–7 because…\"",
+    "rep": "Analyze a sample failed test: what went wrong and one fix"
+   },
+   {
+    "num": 4,
+    "title": "Attempt Two",
+    "hook": "Show improvement from attempt one to attempt three",
+    "rep": "Deliberately hard challenge (puzzle, skill drill); log each attempt and what changed"
+   }
+  ],
+  "selfcheck": [
+   "After a setback I try again",
+   "I know how to calm down when upset"
+  ]
+ },
+ "7": {
+  "n": 7,
+  "heading": "Critical Thinking & Problem-Solving",
+  "idea": "Knowing facts is step one; using them on a messy real problem is the goal. Learners practice defining problems, checking claims and testing solutions.",
+  "tool": "the IDEAL steps. Identify the problem · Define what \"solved\" looks like · Explore options and evidence · Act on the best one · Look back and learn.",
+  "who": null,
+  "test": null,
+  "rep": "Pick one real problem you face. Work it through IDEAL on paper and try your solution.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": null,
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "\"Detective\" mysteries with clues; sort facts from guesses. Fix-it challenges (a toy bridge that keeps falling)."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Spot the misleading ad or post. Plan a class fundraiser using percentages and a budget."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Community problem project (school lunch waste, park safety) with evidence gathering and a proposal to a real decision-maker."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "Case-study teams on a real campus or local issue. Written recommendation memo with evidence and trade-offs, presented to peers."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "What's the Real Problem?",
+    "hook": "\"The bus is always late\": is that the problem or a symptom?",
+    "rep": "Ask \"why?\" five times on a real school or campus problem"
+   },
+   {
+    "num": 2,
+    "title": "Check the Claim",
+    "hook": "Two headlines or posts about the same event that disagree",
+    "rep": "Evaluate a claim: who says it, what's the evidence, what's missing"
+   },
+   {
+    "num": 3,
+    "title": "Use What You Know",
+    "hook": "A classroom fact (fractions, percentages, a science idea) applied to a real task",
+    "rep": "Solve a real-world problem with a school concept (budget a party, plan a garden)"
+   },
+   {
+    "num": 4,
+    "title": "Solve It Together",
+    "hook": "Community challenge brief",
+    "rep": "Teams work through IDEAL and pitch a solution in 2 minutes"
+   }
+  ],
+  "selfcheck": [
+   "I check whether claims are true",
+   "I can use what I learn on real problems"
+  ]
+ },
+ "8": {
+  "n": 8,
+  "heading": "SAT Prep (College Readiness)",
+  "idea": "The SAT rewards calm pacing and fixing repeat mistakes more than cramming. This course applies the skills from the other Ava's Place courses to one high-stakes test on the road to college.",
+  "tool": "the Error Log. For every missed question: topic · why I missed it (didn't know, misread, rushed, ran out of time) · the fix · retest date.",
+  "who": "Launchers (grades 10–12) heading to college, plus adults re-entering school who need a score. Self-paced: 6 modules (short video, practice set, Error Log entry), about 60–90 minutes each. Learners move at their own speed, with a suggested pace of one module per week and an optional live Q&A office hour.",
+  "test": "Fully digital in the Bluebook app. Two sections, Reading and Writing (64 min) then Math (70 min), each split into two adaptive modules. 98 questions, 2 hours 14 minutes of testing, 10-minute break, scored 400–1600. The Desmos calculator is available on all Math questions. (source, source)",
+  "rep": "Register for a test date (or pick a target date) and complete two weeks of the study plan.",
+  "measure": "Diagnostic score vs. final practice score, plus the drop in repeat errors in the Error Log.",
+  "free": "official full-length practice tests in Bluebook and College Board's free Official Digital SAT Prep on Khan Academy. Families pay nothing extra.",
+  "options": null,
+  "facilitator": null,
+  "tiers": [],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Know the Test",
+    "hook": "Walk through Bluebook: modules, tools, timing, how adaptive works",
+    "rep": "Take a timed diagnostic module; start the Error Log"
+   },
+   {
+    "num": 2,
+    "title": "Reading & Writing Strategy",
+    "hook": "One short passage, one question: read the question first",
+    "rep": "Timed R&W practice set; log misses by type"
+   },
+   {
+    "num": 3,
+    "title": "Math Strategy + Desmos",
+    "hook": "Solve one problem by hand and with Desmos, compare speed",
+    "rep": "Timed Math practice set using Desmos where it saves time"
+   },
+   {
+    "num": 4,
+    "title": "Pacing Per Module",
+    "hook": "Module 1 performance shapes Module 2, so don't rush the easy ones",
+    "rep": "Pacing drill: flag, skip, return; two timed modules"
+   },
+   {
+    "num": 5,
+    "title": "Test-Day Nerves",
+    "hook": "Link to Course 6 Reset Rep: breathing and the 60-second reset",
+    "rep": "Full practice test under real conditions"
+   },
+   {
+    "num": 6,
+    "title": "Personal Study Plan",
+    "hook": "Review the Error Log: which 3 mistake types cost the most?",
+    "rep": "Build a 6–8 week plan with weekly timed modules and review sessions"
+   }
+  ],
+  "selfcheck": [
+   "I know how the digital SAT works",
+   "I have a study plan I can follow"
+  ]
+ },
+ "9": {
+  "n": 9,
+  "heading": "Entrepreneurship (College)",
+  "idea": "Entrepreneurship is the other seven skills under real pressure. Students take a small idea from problem to first paying customer in six weeks, using uncertainty, feedback, resilience and problem-solving as working tools.",
+  "tool": "the Build–Test–Learn Board. One page per week: what we believe · what we tested · what customers said or did · what we'll change.",
+  "who": "Leaders (college and first-year adults). Self-paced: 6 modules (short video, worksheet, field task), with a suggested pace of one module per week. Progress is posted to an online Build–Test–Learn Board that a mentor reviews.",
+  "test": null,
+  "rep": "Make one real sale, sign-up or pre-order, and log what it took.",
+  "measure": "Customer interviews completed, tests run, and whether the team reached a first customer. Panel scores from Pitch Day.",
+  "free": null,
+  "options": "campus service (tutoring, moving help), digital product, student-made goods, or a social-impact venture that benefits a nonprofit.",
+  "facilitator": null,
+  "tiers": [],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Problems Worth Solving",
+    "hook": "Founder story that started with a personal frustration",
+    "rep": "List 10 problems you or classmates face; pick one",
+    "skill": "Critical thinking"
+   },
+   {
+    "num": 2,
+    "title": "Talk to Customers",
+    "hook": "Show a product nobody wanted because no one asked",
+    "rep": "Interview 5 potential customers with open questions; no pitching",
+    "skill": "Uncertainty, feedback"
+   },
+   {
+    "num": 3,
+    "title": "The Smallest Test",
+    "hook": "Examples of tests done in a weekend: a sign-up page, a pre-order, a pop-up",
+    "rep": "Design a minimum viable test for under $50",
+    "skill": "Self-direction"
+   },
+   {
+    "num": 4,
+    "title": "Money Basics",
+    "hook": "What a product costs vs. what it sells for",
+    "rep": "Simple unit economics: price, cost, margin, break-even",
+    "skill": "Time and prioritizing"
+   },
+   {
+    "num": 5,
+    "title": "Pivot or Persist",
+    "hook": "Famous pivots where the first idea failed",
+    "rep": "Review test results; decide to keep, change or drop the idea",
+    "skill": "Resilience"
+   },
+   {
+    "num": 6,
+    "title": "Pitch Day",
+    "hook": "90-second pitch model: problem, customer, proof, ask",
+    "rep": "Record a 90-second pitch video and submit it; a panel of local founders or alumni reviews it and sends written feedback",
+    "skill": "Feedback, conflict (team decisions)"
+   }
+  ],
+  "selfcheck": [
+   "I can test an idea with real customers",
+   "I can pitch an idea with confidence"
+  ]
+ },
+ "10": {
+  "n": 10,
+  "heading": "Confidence & Self-Worth",
+  "idea": "Confidence is built through reps, not born. Learners separate who they are from grades, likes and wins, and grow confidence through small, repeated acts of courage.",
+  "tool": "the Evidence File. A running list of proof: things I tried, things I did even though I was nervous, times I kept going. When the inner critic talks, learners read their evidence.",
+  "who": null,
+  "test": null,
+  "rep": "Complete 3 brave reps this week and add each one to your Evidence File.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": null,
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "\"I Can\" jar filled with notes of things they've learned to do. Show-and-tell with a strong voice and eye contact."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Social media comparison check: what's real vs. edited. Build an Evidence File and a personal \"confidence playlist\" of reminders."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Identity map (values, strengths, interests) separate from sports stats, GPA or followers. Practice a mock interview introduction."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "Imposter-feeling lab for first-gen and new students: name it, gather evidence, speak in class or office hours once this week. Draft a personal introduction for networking and interviews."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "I Am More Than a Score",
+    "hook": "Two students with the same grade: one says \"I'm dumb,\" one says \"I need a new plan\"",
+    "rep": "Write 5 \"I am…\" statements that have nothing to do with grades, looks or wins"
+   },
+   {
+    "num": 2,
+    "title": "The Inner Critic",
+    "hook": "Read an unkind inner voice out loud: would you say this to a friend?",
+    "rep": "Rewrite 3 harsh self-talk lines as a coach would say them"
+   },
+   {
+    "num": 3,
+    "title": "Brave Reps",
+    "hook": "Confidence comes after action, not before",
+    "rep": "Pick a small brave act (ask a question, say hi, raise a hand) and do it this week"
+   },
+   {
+    "num": 4,
+    "title": "Speak Up",
+    "hook": "Body language changes how you feel and how others hear you",
+    "rep": "Give a 30-second to 2-minute talk (by tier) on something you care about"
+   }
+  ],
+  "selfcheck": [
+   "I like who I am even when I lose or fail",
+   "I can speak up in a group"
+  ]
+ },
+ "11": {
+  "n": 11,
+  "heading": "Peer Pressure & Independent Choices",
+  "idea": "Fitting in shouldn't cost you who you are. Learners spot pressure (in person and online), practice saying no without losing face, and make choices they can own.",
+  "tool": "the STOP check. Spot the pressure · Think ahead: what happens next? · Options: name at least two · Pick and own it.",
+  "who": null,
+  "test": null,
+  "rep": "Use STOP once this week when you feel pressure, big or small. Log what you chose and why.",
+  "measure": null,
+  "free": null,
+  "options": null,
+  "facilitator": "Situations involving substances, safety or someone being hurt should go to a trusted adult or campus staff. Say this in Session 1 and share contacts.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Puppet scenes about copying, leaving someone out, and dares on the playground. Practice a strong \"No thanks\" voice and finding a grown-up."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Group-chat pressure, online challenges and trends, sharing photos, cheating on homework. Build a personal \"exit line\" and a code word with a parent."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Parties, driving, vaping, academic dishonesty and social media. Plan ahead for 3 real situations they expect this year."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College",
+    "text": "New-environment pressure: going along with roommates, spending to keep up, skipping class, drinking culture, group-project shortcuts. Write a personal values list and one boundary to hold this semester."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Spot the Pressure",
+    "hook": "Direct pressure (\"Just do it\") vs. quiet pressure (everyone else is doing it) vs. online pressure (dares, trends, group chats)",
+    "rep": "Sort 10 scenarios by type of pressure"
+   },
+   {
+    "num": 2,
+    "title": "The Cool No",
+    "hook": "Show a no that sounds awkward and one that sounds easy",
+    "rep": "Practice 5 ways to say no: joke, excuse, switch the plan, walk away, straight no"
+   },
+   {
+    "num": 3,
+    "title": "Your Crew",
+    "hook": "Friends who lift you vs. friends who push you",
+    "rep": "Map your circle: who makes good choices easier, who makes them harder"
+   },
+   {
+    "num": 4,
+    "title": "Stand on Your Own",
+    "hook": "Story of someone who went against the group and was glad later",
+    "rep": "Role-play a group scenario using STOP, then debrief how it felt"
+   }
+  ],
+  "selfcheck": [
+   "I can say no to friends when something feels wrong",
+   "My choices reflect my own values"
+  ]
+ }
+}

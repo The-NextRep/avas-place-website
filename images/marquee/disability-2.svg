@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="600" height="400">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E8577"/><stop offset="1" stop-color="#A9DCCF"/></linearGradient></defs>
+<rect width="300" height="200" fill="url(#sky)"/>
+<circle cx="50" cy="40" r="34" fill="#FFE7A3" opacity="0.35"/><circle cx="50" cy="40" r="20" fill="#FFE7A3" opacity="0.75"/>
+<path d="M0 168 Q150 150 300 168 V200 H0 Z" fill="#6E9C6A"/>
+<circle cx="108.1" cy="157.3" r="23.8" fill="none" stroke="#1B2433" stroke-width="3.8"/>
+<circle cx="108.1" cy="157.3" r="18.1" fill="none" stroke="#CFD6DE" stroke-width="1.9"/>
+<circle cx="138.5" cy="176.3" r="5.7" fill="none" stroke="#1B2433" stroke-width="2.8"/>
+<path d="M96.7 111.7 L98.6 149.7 L134.7 149.7 L138.5 174.4" fill="none" stroke="#1B2433" stroke-width="3.3" stroke-linejoin="round"/>
+<path d="M108.1 144.0 L130.9 144.0 L132.8 172.5" fill="none" stroke="#0B3A5C" stroke-width="7.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="98.6" y="106.0" width="22.8" height="39.9" rx="9.5" fill="#E8765A"/>
+<line x1="100.5" y1="111.7" x2="87.2" y2="128.8" stroke="#F1C27D" stroke-width="6.2" stroke-linecap="round"/>
+<line x1="119.5" y1="111.7" x2="127.1" y2="79.4" stroke="#F1C27D" stroke-width="6.2" stroke-linecap="round"/>
+<path d="M97.7 94.6 Q95.8 115.5 102.4 113.6 L117.6 113.6 Q124.2 115.5 122.3 94.6 Z" fill="#5A3A1E"/>
+<circle cx="110.0" cy="94.6" r="10.4" fill="#F1C27D"/>
+<path d="M99.1 93.6 A10.9 10.9 0 0 1 120.9 93.6 Q110.0 88.9 99.1 93.6 Z" fill="#5A3A1E"/><circle cx="198.1" cy="157.3" r="23.8" fill="none" stroke="#1B2433" stroke-width="3.8"/>
+<circle cx="198.1" cy="157.3" r="18.1" fill="none" stroke="#CFD6DE" stroke-width="1.9"/>
+<circle cx="228.5" cy="176.3" r="5.7" fill="none" stroke="#1B2433" stroke-width="2.8"/>
+<path d="M186.7 111.7 L188.6 149.7 L224.7 149.7 L228.5 174.4" fill="none" stroke="#1B2433" stroke-width="3.3" stroke-linejoin="round"/>
+<path d="M198.1 144.0 L220.9 144.0 L222.8 172.5" fill="none" stroke="#0B3A5C" stroke-width="7.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="188.6" y="106.0" width="22.8" height="39.9" rx="9.5" fill="#5DA9E9"/>
+<line x1="190.5" y1="111.7" x2="177.2" y2="128.8" stroke="#5C3A21" stroke-width="6.2" stroke-linecap="round"/>
+<line x1="209.5" y1="111.7" x2="217.1" y2="79.4" stroke="#5C3A21" stroke-width="6.2" stroke-linecap="round"/>
+<circle cx="200.0" cy="94.6" r="10.4" fill="#5C3A21"/>
+<path d="M189.1 93.6 A10.9 10.9 0 0 1 210.9 93.6 Q200.0 88.9 189.1 93.6 Z" fill="#121212"/><circle cx="155" cy="70" r="7" fill="#F2B33D"/>
+</svg>

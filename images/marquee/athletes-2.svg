@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="600" height="400">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A2E3E"/><stop offset="1" stop-color="#E8A9A0"/></linearGradient></defs>
+<rect width="300" height="200" fill="url(#sky)"/>
+<circle cx="50" cy="44" r="34" fill="#FFE7A3" opacity="0.35"/><circle cx="50" cy="44" r="20" fill="#FFE7A3" opacity="0.75"/>
+<path d="M0 168 Q150 150 300 168 V200 H0 Z" fill="#4E7D4A"/>
+<path d="M126.0 140.0 L112.0 168.0 L104.0 180.0" fill="none" stroke="#2B2B2B" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M134.0 140.0 L144.0 160.0 L154.0 178.0" fill="none" stroke="#2B2B2B" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="117.0" y="101.0" width="26.0" height="42.0" rx="10.0" fill="#0B3A5C"/>
+<line x1="119.0" y1="108.0" x2="97.0" y2="118.0" stroke="#8D5524" stroke-width="6.5" stroke-linecap="round"/>
+<line x1="141.0" y1="108.0" x2="157.0" y2="78.0" stroke="#8D5524" stroke-width="6.5" stroke-linecap="round"/>
+<circle cx="130.0" cy="90.0" r="11.0" fill="#8D5524"/>
+<path d="M118.5 89.0 A11.5 11.5 0 0 1 141.5 89.0 Q130.0 84.0 118.5 89.0 Z" fill="#1E140C"/><path d="M211.4 144.2 L198.8 169.4 L191.6 180.2" fill="none" stroke="#7A2E3E" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M218.6 144.2 L227.6 162.2 L236.6 178.4" fill="none" stroke="#7A2E3E" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="203.3" y="109.1" width="23.4" height="37.8" rx="9.0" fill="#FFFFFF"/>
+<line x1="205.1" y1="115.4" x2="190.7" y2="88.4" stroke="#E0AC69" stroke-width="5.9" stroke-linecap="round"/>
+<line x1="224.9" y1="115.4" x2="244.7" y2="124.4" stroke="#E0AC69" stroke-width="5.9" stroke-linecap="round"/>
+<path d="M203.3 99.2 Q201.5 119.0 207.8 117.2 L222.2 117.2 Q228.5 119.0 226.7 99.2 Z" fill="#5A3A1E"/>
+<circle cx="215.0" cy="99.2" r="9.9" fill="#E0AC69"/>
+<path d="M204.7 98.3 A10.3 10.3 0 0 1 225.3 98.3 Q215.0 93.8 204.7 98.3 Z" fill="#5A3A1E"/><g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.55"><line x1="70" y1="110" x2="92" y2="110"/><line x1="64" y1="124" x2="90" y2="124"/><line x1="160" y1="118" x2="180" y2="118"/></g>
+</svg>
