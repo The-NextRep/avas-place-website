@@ -498,3 +498,11 @@ p { margin: 0; }
 @media (max-width: 760px) {
   .hero-marquee::before { background: linear-gradient(rgba(251, 246, 234, 0.55), rgba(251, 246, 234, 0.55)), radial-gradient(90% 70% at 50% 50%, rgba(251, 246, 234, 0.96) 0%, rgba(251, 246, 234, 0.9) 60%, rgba(251, 246, 234, 0.55) 100%); }
 }
+/* Hero without center logo: sun glow sits behind the headline */
+.hero-center { position: relative; z-index: 2; }
+.sun-glow { position: absolute; z-index: -1; left: 50%; top: 34%; width: min(900px, 140vw); aspect-ratio: 1; translate: -50% -50%; pointer-events: none; }
+.sun-glow::after { content: ""; position: absolute; inset: 22%; border-radius: 50%; background: radial-gradient(circle, rgba(255, 214, 120, 0.55) 0%, rgba(255, 214, 120, 0) 68%); }
+.sun-glow .crest-rays { width: 100%; }
+.hero-kicker { font-family: var(--brand); font-weight: 700; font-size: 15px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold-deep); }
+.hero-title { font-size: clamp(40px, 6.6vw, 84px); }
+@media (max-width: 760px) { .hero-kicker { font-size: 12px; letter-spacing: 0.14em; } .sun-glow { top: 30%; } }
