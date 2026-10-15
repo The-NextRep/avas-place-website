@@ -506,3 +506,8 @@ p { margin: 0; }
 .hero-kicker { font-family: var(--brand); font-weight: 700; font-size: 15px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold-deep); }
 .hero-title { font-size: clamp(40px, 6.6vw, 84px); }
 @media (max-width: 760px) { .hero-kicker { font-size: 12px; letter-spacing: 0.14em; } .sun-glow { top: 30%; } }
+/* Header logo: transparent, bigger */
+.brand img { height: 62px; width: auto; border-radius: 0; }
+.rot-word { transition: opacity .35s ease, transform .35s ease; }
+.pillars i { width: auto; height: auto; background: none; color: var(--accent); font-style: normal; font-size: 22px; line-height: 1; }
+@media (max-width: 760px) { .brand img { height: 50px; } }

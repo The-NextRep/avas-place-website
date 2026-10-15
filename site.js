@@ -25,16 +25,19 @@
       toggle.querySelector('path').setAttribute('d', paused ? 'M8 5l11 7-11 7z' : 'M8 5v14M16 5v14');
     });
   }
-  var words = document.querySelectorAll('.rot-word');
+  var rot = document.querySelector('.rot-word[data-words]');
   var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (words.length > 1 && !calm) {
-    var i = 0;
+  if (rot && !calm) {
+    var list = rot.getAttribute('data-words').split('|'), k = 0;
     setInterval(function () {
       if (hero && hero.classList.contains('paused')) return;
-      words[i].classList.remove('is-on');
-      i = (i + 1) % words.length;
-      words[i].classList.add('is-on');
-    }, 2400);
+      rot.classList.remove('is-on');
+      setTimeout(function () {
+        k = (k + 1) % list.length;
+        rot.textContent = list[k];
+        rot.classList.add('is-on');
+      }, 350);
+    }, 2600);
   }
   var year = document.getElementById('year');
   if (year) year.textContent = new Date().getFullYear();
