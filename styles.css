@@ -293,6 +293,37 @@ p { margin: 0; }
 .rw-rep { font-size: 17px; color: var(--ink-soft); }
 .rw-rep strong { color: var(--ink); }
 
+/* Athlete fundraiser */
+.fund-hero { background: var(--night); color: #F4EEDF; }
+.fund-hero-grid { display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding-top: 72px; padding-bottom: 72px; }
+.fund-copy { flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+.fund-copy h1 { font-family: var(--brand); font-size: clamp(40px, 6vw, 76px); letter-spacing: 0.04em; line-height: 1; color: #FFFFFF; text-transform: uppercase; }
+.eyebrow.gold, .fund-role { color: var(--accent); }
+.fund-role { font-weight: 700; font-size: 20px; letter-spacing: 0.12em; text-transform: uppercase; }
+.fund-meta { color: #C9C1AE; }
+.fund-lead { font-size: 20px; color: #E3DCCB; max-width: 560px; margin-bottom: 8px; }
+.fund-photo { flex: 0 1 340px; min-width: 0; margin: 0 auto; }
+.fund-photo img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; border-radius: 20px; border: 3px solid var(--accent); }
+.fund-facts { margin-top: 40px; }
+.fact { font-weight: 600; font-size: 18px; }
+.event { margin-top: 4px; background: var(--sky); border-radius: 12px; padding: 12px 16px; }
+.give-band { display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between; padding-top: 72px; padding-bottom: 72px; }
+.give-copy { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
+.give-copy h2 { color: #FFFFFF; font-size: clamp(32px, 4vw, 48px); }
+.give-copy p { color: #D6CFBE; }
+.give-copy .contact a { color: var(--accent); }
+.qr { margin: 0 auto; text-align: center; }
+.qr img { width: 180px; height: 180px; background: #FFFFFF; border-radius: 14px; padding: 8px; }
+.qr figcaption { margin-top: 8px; font-family: var(--brand); letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-size: 14px; }
+
+/* Homepage fundraiser feature */
+.feature-fund { display: flex; flex-wrap: wrap; gap: 0; border-radius: 24px; overflow: hidden; background: var(--night); color: #F4EEDF; }
+.feature-fund img { flex: 0 0 260px; width: 260px; max-width: 100%; height: auto; min-height: 100%; object-fit: cover; object-position: center 20%; }
+.feature-fund .ff-body { flex: 1 1 360px; min-width: 0; padding: 36px; display: flex; flex-direction: column; gap: 12px; }
+.feature-fund h2 { color: #FFFFFF; }
+.feature-fund p { color: #D6CFBE; }
+@media (max-width: 640px) { .feature-fund img { flex-basis: 100%; width: 100%; height: 320px; } .feature-fund .ff-body { padding: 24px; } }
+
 /* Phone */
 @media (max-width: 760px) {
   .section { padding: 64px 0; }
