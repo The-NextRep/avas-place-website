@@ -701,5 +701,192 @@
    "I can say no to friends when something feels wrong",
    "My choices reflect my own values"
   ]
+ },
+ "12": {
+  "n": 12,
+  "heading": "Online Safety & Scam Smarts",
+  "idea": "Scammers count on panic and shame. Learners practice slowing down, spotting the red flags and knowing exactly what to do and who to tell, so a bad moment online never turns into a crisis.",
+  "tool": "the 3 Rs. Recognize the red flags (rush, secrecy, requests for money or photos, too good to be true) · Refuse to send, pay or click · Report it to a trusted adult and the platform, and save the evidence.",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Do a privacy and settings checkup on two apps you use, and share your safety plan with one trusted adult.",
+  "facilitator": "Talk about sextortion calmly and without blame: the person targeted is never at fault. Share counselor contacts in Session 1 and know your school's reporting process; if a student discloses, follow your mandated-reporter procedures. Free help for young people: NCMEC's Take It Down (takeitdown.ncmec.org) helps remove explicit images, and the CyberTipline (report.cybertip.org) takes reports.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "\"Tricky people online\" picture cards. Never share your name, school or photos, and always tell a grown-up. You will never be in trouble for telling."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "Game chats, free-currency and giveaway scams, and friend requests from strangers. Do a privacy-settings check together."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "Sextortion warning signs, fake jobs and money-flip scams, and text and QR-code scams. Walk through Take It Down and how to report."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Rental and housing scams, fake job offers with upfront fees, payment-app scams, and protecting your credit and identity."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Too Good to Be True",
+    "hook": "Three messages: a prize, a job offer, a cheap deal. Which ones are real?",
+    "rep": "Sort ten realistic messages into safe, suspicious or scam, and name the red flag in each"
+   },
+   {
+    "num": 2,
+    "title": "Who's Really There?",
+    "hook": "A friendly new follower who already knows a lot about you",
+    "rep": "Check a profile together: account age, mutual friends, reused photos (older tiers try a reverse image search)"
+   },
+   {
+    "num": 3,
+    "title": "Never Pay, Never Panic",
+    "hook": "How threat scams use panic and shame to rush you (age-appropriate)",
+    "rep": "Role-play the first ten minutes: stop replying, don't pay, screenshot, block, tell an adult, and report"
+   },
+   {
+    "num": 4,
+    "title": "Your Safety Team",
+    "hook": "Who would you tell? Many young people say no one",
+    "rep": "Build a no-shame family safety plan: a settings checkup, a code word, and three adults you can go to"
+   }
+  ],
+  "selfcheck": [
+   "I can spot the red flags of a scam",
+   "I know exactly what to do and who to tell if someone threatens me online"
+  ]
+ },
+ "13": {
+  "n": 13,
+  "heading": "NIL & Recruiting",
+  "idea": "Your name, image and likeness can open doors, or close them if you sign the wrong thing. Athletes and their families learn the rules, the money and the red flags before the first offer arrives.",
+  "tool": "the Deal Check. Before any deal: Is it allowed under my state and school rules? · What do I give and what do I get? · How and when am I paid, and what will I owe in taxes? · Who reviewed it: a parent, a coach, a qualified professional?",
+  "who": "Launchers (grades 9–12) and college athletes, with a parent and guardian track. Self-paced: 6 modules (short video, worksheet, family discussion), with a suggested pace of one module per week.",
+  "test": null,
+  "free": null,
+  "options": null,
+  "parents": "Parents and guardians often manage an athlete's first deals. The parent track covers the same Deal Check, how to vet agents and marketing reps, and keeping NIL money and records organized from day one.",
+  "measure": "Deal Checks completed, brand statements written and pitches recorded.",
+  "rep": "Run one real or sample offer through the Deal Check with a parent or mentor before saying yes.",
+  "facilitator": "NIL rules differ by state and change often. Point high school families to their state athletic association and college athletes to their compliance office. This course is education, not legal or tax advice; encourage families to have any real contract reviewed by a qualified professional.",
+  "tiers": [],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Know Your Rules",
+    "hook": "The same deal in two states: allowed in one, an eligibility problem in the other",
+    "rep": "Find your state association's NIL policy and list three rules that apply to you"
+   },
+   {
+    "num": 2,
+    "title": "Your Brand, Your Story",
+    "hook": "Two athlete profiles: one sponsors want, one they avoid",
+    "rep": "Audit your social media and write a two-sentence brand statement"
+   },
+   {
+    "num": 3,
+    "title": "Reading the Deal",
+    "hook": "A sample agreement with three hidden traps",
+    "rep": "Mark up a sample NIL agreement: exclusivity, length, deliverables and payment"
+   },
+   {
+    "num": 4,
+    "title": "Money & Taxes",
+    "hook": "Why a $1,000 deal isn't $1,000 in your pocket",
+    "rep": "Pick a set-aside percentage for taxes, start a simple income tracker, and learn what a 1099 form is"
+   },
+   {
+    "num": 5,
+    "title": "Recruiting & NIL Together",
+    "hook": "How deals and social media can help or hurt recruiting",
+    "rep": "Build a recruiting plan: highlight film, a coach contact list, a timeline and the questions to ask about NIL"
+   },
+   {
+    "num": 6,
+    "title": "Pitch Day",
+    "hook": "A 30-second pitch to a local business",
+    "rep": "Record a pitch to a local business and get feedback from a parent or mentor"
+   }
+  ],
+  "selfcheck": [
+   "I know my state's NIL rules",
+   "I can spot red flags in a deal before I sign"
+  ]
+ },
+ "14": {
+  "n": 14,
+  "heading": "Real Life Money",
+  "idea": "Money gets real fast: a first paycheck, a first credit card, a first doctor's bill. Learners practice the money skills recent grads say they most wish they'd been taught.",
+  "tool": "the Money Map. One page that shows what comes in (your pay stub) · what goes out (needs, wants, savings) · what you owe (credit and loans) · what protects you (insurance and an emergency fund).",
+  "who": null,
+  "test": null,
+  "free": null,
+  "options": null,
+  "measure": null,
+  "rep": "Build your own Money Map for a real or sample month, and share one money goal with a family member.",
+  "facilitator": "Use sample documents, never students' real financial information. Tax rules and dollar thresholds change every year, so check IRS.gov for current figures. This course pairs well with the personal finance course many states now require.",
+  "tiers": [
+   {
+    "tier": "Sprouts",
+    "stage": "K–5",
+    "text": "Needs vs. wants, a three-jar save/spend/share game, and why grown-ups pay for things like the doctor."
+   },
+   {
+    "tier": "Builders",
+    "stage": "6–8",
+    "text": "First earnings from babysitting or mowing, a simple budget, and how a debit card differs from a credit card."
+   },
+   {
+    "tier": "Launchers",
+    "stage": "9–12",
+    "text": "A first paycheck and W-4, a first tax return, credit basics before a first card, and staying on a family health plan."
+   },
+   {
+    "tier": "Leaders",
+    "stage": "College & first-year adults",
+    "text": "Filing on your own, student loans and credit cards, choosing a health or student plan, and the costs of renting a first place."
+   }
+  ],
+  "sessions": [
+   {
+    "num": 1,
+    "title": "Your First Paycheck",
+    "hook": "Why is my check smaller than my pay?",
+    "rep": "Read a sample pay stub (gross, net, taxes, deductions); older tiers fill out a sample W-4"
+   },
+   {
+    "num": 2,
+    "title": "Filing Your Taxes",
+    "hook": "Refund or a bill: what decides it?",
+    "rep": "Walk through a simple sample return using a W-2, and find free filing options"
+   },
+   {
+    "num": 3,
+    "title": "How Credit Works",
+    "hook": "Two people buy the same car, and one pays thousands more",
+    "rep": "See how a credit score changes the cost of a loan, and list five habits that build good credit"
+   },
+   {
+    "num": 4,
+    "title": "Health Insurance Without Panic",
+    "hook": "A surprise medical bill arrives",
+    "rep": "Read a sample insurance card and benefits statement, and match premium, deductible and copay to real examples"
+   }
+  ],
+  "selfcheck": [
+   "I can read a pay stub and know where my money went",
+   "I understand how credit and health insurance work"
+  ]
  }
 }

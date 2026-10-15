@@ -12,6 +12,7 @@ TRACKS = [
     ("track-others", "Working with others", "#2E8B6E", [1, 2, 3]),
     ("track-manage", "Managing yourself", "#0B3A5C", [4, 5, 6, 7]),
     ("track-college", "College readiness", "#A8452F", [8, 9]),
+    ("track-ready", "Real-world readiness", "#6B4FA0", [14, 12, 13]),
 ]
 
 STD = "4 sessions · all four learner tiers"
@@ -160,6 +161,45 @@ COURSES = {
                ("Launchers", "Plan ahead for three real situations expected this year."),
                ("Leaders", "A personal values list and one boundary to hold this semester.")],
         rep="Use STOP once this week when you feel pressure. Log what you chose and why."),
+    12: dict(
+        title="Online Safety & Scam Smarts", meta=STD,
+        idea="Scammers count on panic and shame. Learners practice slowing down, spotting red flags and knowing exactly what to do and who to tell.",
+        tool=("The 3 Rs", "Recognize the red flags · Refuse to send, pay or click · Report it to a trusted adult and the platform."),
+        sessions=[("Too Good to Be True", "Sort realistic messages into safe, suspicious or scam."),
+                  ("Who's Really There?", "Check a profile for signs it's fake."),
+                  ("Never Pay, Never Panic", "Role-play the first ten minutes after a threat."),
+                  ("Your Safety Team", "Build a no-shame family safety plan.")],
+        tiers=[("Sprouts", "\"Tricky people online\" picture cards and always telling a grown-up."),
+               ("Builders", "Game-chat scams, fake giveaways and privacy settings."),
+               ("Launchers", "Sextortion warning signs, fake jobs and how to report."),
+               ("Leaders", "Rental, job and payment-app scams; protecting your identity.")],
+        rep="Do a privacy checkup on two apps and share your safety plan with a trusted adult."),
+    13: dict(
+        title="NIL & Recruiting", meta="Grades 9–12 & college athletes, with a parent track · 6 self-paced modules",
+        idea="Your name, image and likeness can open doors, or close them if you sign the wrong thing. Learn the rules, the money and the red flags before the first offer.",
+        tool=("The Deal Check", "Is it allowed? · What do I give and get? · How am I paid and what will I owe in taxes? · Who reviewed it?"),
+        sessions=[("Know Your Rules", "Find your state's NIL policy and the rules that apply to you."),
+                  ("Your Brand, Your Story", "Audit your social media and write a brand statement."),
+                  ("Reading the Deal", "Mark up a sample NIL agreement."),
+                  ("Money & Taxes", "Set aside for taxes and start an income tracker."),
+                  ("Recruiting & NIL Together", "Build a recruiting plan that fits your NIL goals."),
+                  ("Pitch Day", "Record a pitch to a local business.")],
+        tiers=[],
+        extra="Education, not legal or tax advice. Rules differ by state, so check with your state athletic association or compliance office.",
+        rep="Run one real or sample offer through the Deal Check with a parent or mentor."),
+    14: dict(
+        title="Real Life Money", meta=STD,
+        idea="A first paycheck, a first credit card, a first doctor's bill. Practice the money skills grads say they most wish they'd been taught.",
+        tool=("The Money Map", "What comes in · what goes out · what you owe · what protects you."),
+        sessions=[("Your First Paycheck", "Read a pay stub: gross, net, taxes, deductions."),
+                  ("Filing Your Taxes", "Walk through a simple sample return."),
+                  ("How Credit Works", "See how a credit score changes the cost of a loan."),
+                  ("Health Insurance Without Panic", "Read an insurance card and benefits statement.")],
+        tiers=[("Sprouts", "Needs vs. wants and a save/spend/share game."),
+               ("Builders", "First earnings, a simple budget, debit vs. credit."),
+               ("Launchers", "A first paycheck, W-4, tax return and credit basics."),
+               ("Leaders", "Filing alone, student loans and choosing a health plan.")],
+        rep="Build your own Money Map for a real or sample month."),
 }
 
 

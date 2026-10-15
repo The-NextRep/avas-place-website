@@ -14,10 +14,11 @@ TRACKS = [
     ("track-others", "Working with others", "#2E8B6E", [1, 2, 3]),
     ("track-manage", "Managing yourself", "#0B3A5C", [4, 5, 6, 7]),
     ("track-college", "College readiness", "#A8452F", [8, 9]),
+    ("track-ready", "Real-world readiness", "#6B4FA0", [14, 12, 13]),
 ]
 ORDER = [n for _, _, _, ns in TRACKS for n in ns]
 TRACK_OF = {n: (tid, name, color) for tid, name, color, ns in TRACKS for n in ns}
-TITLES = {8: "SAT Prep", 9: "Entrepreneurship"}
+TITLES = {8: "SAT Prep", 9: "Entrepreneurship", 13: "NIL & Recruiting"}
 TIER_TIME = {"Sprouts": "20 min", "Builders": "30 min", "Launchers": "40 min", "Leaders": "50 min or self-paced"}
 
 
@@ -109,6 +110,8 @@ def course_page(n):
           </li>''')
     out.append('</ol>')
 
+    if c.get("parents"):
+        out.append(f'<div class="card info-card" style="margin-top:24px"><p class="level">For parents &amp; guardians</p><p>{e(tidy(c["parents"]))}</p></div>')
     if c.get("options"):
         out.append(f'<div class="card info-card" style="margin-top:24px"><p class="level">Pick your venture</p><p>{e(tidy(c["options"]))}</p></div>')
     out.append(f'''
@@ -187,3 +190,144 @@ for n in ORDER:
     (ROOT / slug(n)).write_text(course_page(n))
 (ROOT / "rep-card.html").write_text(rep_card())
 print(f"Built {len(ORDER)} course pages + rep-card.html")
+
+CONTACT = "info@the-nextrep.com"   # where school / Title I / sponsor requests are emailed — change in one place
+
+PATHS = [
+    ("Sprouts", "Grades K–5", "20-minute sessions with stories, games and picture cards. Best done with a parent or teacher.", [10, 6, 3, 4, 12, 14]),
+    ("Builders", "Grades 6–8", "30-minute sessions with scenarios, partner practice and simple trackers.", [10, 11, 6, 4, 2, 12, 14]),
+    ("Launchers", "Grades 9–12", "40-minute sessions with case studies, role-play and personal plans.", [10, 6, 4, 1, 12, 14, 8, 13]),
+    ("Leaders", "College & first-year adults", "Self-paced or 50-minute sessions with real-life projects and reflection.", [10, 6, 5, 1, 14, 12, 9]),
+]
+
+
+def start_page():
+    cards = []
+    for tier, stage, desc, path in PATHS:
+        items = "".join(f'<li><a href="{slug(n)}">{e(title(n))}</a></li>' for n in path)
+        cards.append(f'<article class="card path-card" id="{tier.lower()}"><p class="level">{e(stage)}</p><h3>{e(tier)}</h3><p class="soft">{e(desc)}</p><ol class="path-list">{items}</ol><a class="btn btn-primary self-start push" href="{slug(path[0])}">Start this path</a></article>')
+    body = f'''
+    <section class="page-hero bg-sky">
+      <div class="container">
+        <p class="eyebrow">Families &amp; learners · Free</p>
+        <h1>Start learning free.</h1>
+        <p class="lead" style="margin-top:14px;max-width:760px">No account, no cost. Every Ava's Place course is open to every family. Pick your stage, follow the suggested path, and keep track on a printable Rep Card.</p>
+        <ol class="steps-row">
+          <li><span>1</span>Pick your stage below</li>
+          <li><span>2</span>Open a course and work through its sessions</li>
+          <li><span>3</span>Print a <a href="rep-card.html">Rep Card</a>, then a <a href="certificate.html">certificate</a> when you finish</li>
+        </ol>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><p class="eyebrow">Suggested paths</p><h2>Choose your stage.</h2><p class="soft" style="margin-top:10px">Each course stands alone, so feel free to jump to whatever you need most. These orders build on each other.</p></div>
+        <div class="grid path-grid">{"".join(cards)}</div>
+        <div class="card info-card" style="margin-top:28px"><p class="level">Athletes</p><p>Add <a href="{slug(13)}">NIL &amp; Recruiting</a> (grades 9–12 and college) to any path, with a track for parents and guardians.</p></div>
+        <p class="note">Prefer to browse? See the <a href="courses.html">full course catalog</a>.</p>
+      </div>
+    </section>
+'''
+    return head("Start Learning Free", "Free Ava's Place courses for every family: pick your stage and follow a suggested learning path.") + body + FOOT
+
+
+def certificate_page():
+    opts = "".join(f'<option>{e(title(n))}</option>' for n in ORDER)
+    body = f'''
+    <section class="page-hero bg-sky no-print">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="start.html">Start learning</a> <span aria-hidden="true">›</span> Certificate</nav>
+        <h1>Print your certificate</h1>
+        <p class="lead" style="margin-top:12px;max-width:720px">Finished a course and your Real-World Rep? Fill in your name, pick the course, and print.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container cert-layout">
+        <form class="card cert-form no-print" id="cert-form">
+          <label for="cert-name">Learner's name</label><input id="cert-name" type="text" autocomplete="name" placeholder="First and last name">
+          <label for="cert-course">Course completed</label><select id="cert-course">{opts}</select>
+          <label for="cert-date">Date</label><input id="cert-date" type="date">
+          <button type="button" class="btn btn-primary" onclick="window.print()">Print certificate</button>
+        </form>
+        <div class="certificate" id="certificate" aria-live="polite">
+          <img src="images/logo-mark-clear.webp" width="520" height="338" alt="" class="cert-logo">
+          <p class="cert-kicker">Ava's Place Foundation</p>
+          <p class="cert-title">Certificate of Completion</p>
+          <p class="cert-small">This certifies that</p>
+          <p class="cert-name" id="out-name">Your Name</p>
+          <p class="cert-small">completed the course and its Real-World Rep</p>
+          <p class="cert-course" id="out-course">{e(title(ORDER[0]))}</p>
+          <p class="cert-date" id="out-date"></p>
+          <p class="cert-pillars">Support · Connection · Opportunity</p>
+        </div>
+      </div>
+    </section>
+'''
+    return head("Certificate", "Print an Ava's Place course completion certificate.") + body + FOOT
+
+
+def schools_page():
+    body = f'''
+    <section class="page-hero bg-sky">
+      <div class="container">
+        <p class="eyebrow">Schools, districts &amp; colleges</p>
+        <h1>Bring Ava's Place to your students.</h1>
+        <p class="lead" style="margin-top:14px;max-width:780px">All 14 courses are free for families. Schools and colleges pay one flat yearly fee for the training, support and reporting around them, and Title I schools get the full package free through sponsors.</p>
+        <div class="btn-row" style="margin-top:20px"><a href="#request" class="btn btn-primary">Request a license</a><a href="#title-i" class="btn btn-outline">Title I schools</a></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><p class="eyebrow">Licenses</p><h2>Simple yearly pricing.</h2></div>
+        <div class="sheet-wrap"><table class="sheet price-table"><thead><tr><th scope="col">License</th><th scope="col">Who</th><th scope="col">Per year</th><th scope="col">What's included</th></tr></thead><tbody>
+          <tr><td>Elementary school</td><td>Individual K–5 schools</td><td><strong>$750</strong></td><td>All courses, facilitator kit, recorded teacher training, whole-class setup, before-and-after results report</td></tr>
+          <tr><td>Middle or high school</td><td>Individual 6–12 schools</td><td><strong>$1,000–$1,500</strong></td><td>Everything in Elementary, plus SAT Prep for high schools</td></tr>
+          <tr><td>District</td><td>5 or more schools</td><td><strong>20% off each school</strong></td><td>Same as the school licenses, with one district-wide report</td></tr>
+          <tr><td>College or university</td><td>Colleges, first-year programs</td><td><strong>$3,000–$5,000 per campus</strong></td><td>Everything in Schools, plus Entrepreneurship cohorts, a Pitch Day judging panel and live guest speakers</td></tr>
+          <tr><td>Title I schools</td><td>Schools serving a high share of low-income students</td><td><strong>Free</strong></td><td>The full school package, paid for by a sponsor</td></tr>
+          <tr><td>Add-on: live training</td><td>Any school or college</td><td><strong>$500–$1,000 per session</strong></td><td>Live virtual facilitator training for teachers or staff</td></tr>
+        </tbody></table></div>
+        <p class="note">One flat fee per school is easier to approve than per-student pricing.</p>
+      </div>
+    </section>
+    <section class="section bg-mist" id="title-i">
+      <div class="container split">
+        <div><p class="eyebrow">Title I schools</p><h2>Free for the schools that need it most.</h2></div>
+        <div class="soft">
+          <p>Each sponsor covers the full license for one or more Title I schools for a year, about $1,000 per school. Sponsors are named on those schools' course pages and in our annual impact report.</p>
+          <p>Title I schools can apply with the form below. Businesses and donors who want to sponsor a school can use it too.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="request">
+      <div class="container"><span id="title-i-apply" class="anchor"></span><span id="sponsor" class="anchor"></span>
+        <div class="section-head"><p class="eyebrow">Get started</p><h2>Request a license or apply.</h2><p class="soft" style="margin-top:10px">Send us a few details and we'll follow up with next steps. Submitting opens your email with everything filled in.</p></div>
+        <form class="card req-form" id="req-form" data-to="{CONTACT}">
+          <div class="fgrid">
+            <div class="f full"><label for="r-type">I'm interested in</label>
+              <select id="r-type" name="Request type" required>
+                <option>School license</option><option>District license (5+ schools)</option><option>College or university license</option><option value="Title I school application">Title I school application (free)</option><option>Sponsoring a Title I school</option><option>Live training add-on</option>
+              </select></div>
+            <div class="f"><label for="r-name">Your name</label><input id="r-name" name="Name" autocomplete="name" required></div>
+            <div class="f"><label for="r-role">Your role</label><input id="r-role" name="Role" placeholder="Principal, counselor, teacher…"></div>
+            <div class="f"><label for="r-org">School, district, college or company</label><input id="r-org" name="Organization" autocomplete="organization" required></div>
+            <div class="f"><label for="r-state">City and state</label><input id="r-state" name="Location"></div>
+            <div class="f"><label for="r-grades">Grades or programs</label><input id="r-grades" name="Grades" placeholder="e.g. K–5, 9–12, first-year seminar"></div>
+            <div class="f"><label for="r-size">Approximate number of students</label><input id="r-size" name="Students" inputmode="numeric"></div>
+            <div class="f"><label for="r-email">Email</label><input id="r-email" name="Email" type="email" autocomplete="email" required></div>
+            <div class="f"><label for="r-phone">Phone (optional)</label><input id="r-phone" name="Phone" type="tel" autocomplete="tel"></div>
+            <div class="f full"><label for="r-msg">Anything else we should know?</label><textarea id="r-msg" name="Message" rows="4" placeholder="Courses you're most interested in, timing, questions…"></textarea></div>
+          </div>
+          <button type="submit" class="btn btn-accent self-start">Send request</button>
+          <p class="small soft">Or email us directly at <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
+        </form>
+      </div>
+    </section>
+'''
+    return head("Schools & Colleges", "Ava's Place school, district and college licenses, and free access for Title I schools.") + body + FOOT
+
+
+(ROOT / "start.html").write_text(start_page())
+(ROOT / "certificate.html").write_text(certificate_page())
+(ROOT / "schools.html").write_text(schools_page())
+print("Built start.html, certificate.html, schools.html")

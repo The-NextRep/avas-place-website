@@ -511,3 +511,42 @@ p { margin: 0; }
 .rot-word { transition: opacity .35s ease, transform .35s ease; }
 .pillars i { width: auto; height: auto; background: none; color: var(--accent); font-style: normal; font-size: 22px; line-height: 1; }
 @media (max-width: 760px) { .brand img { height: 50px; } }
+
+/* ===== Start, certificate & schools pages ===== */
+.steps-row { list-style: none; padding: 0; margin: 26px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.steps-row li { display: flex; align-items: center; gap: 12px; background: #FFFFFF; border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; font-weight: 600; }
+.steps-row span { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--accent); color: var(--ink); display: flex; align-items: center; justify-content: center; font-weight: 800; }
+.path-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+.path-card h3 { font-family: var(--display); font-weight: 700; font-size: 28px; }
+.path-list { margin: 4px 0 8px; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+.path-list a { font-weight: 600; }
+.cert-layout { display: grid; grid-template-columns: minmax(260px, 340px) 1fr; gap: 28px; align-items: start; }
+.cert-form, .req-form { gap: 10px; }
+.cert-form label, .req-form label { font-weight: 700; font-size: 15px; }
+.cert-form input, .cert-form select, .req-form input, .req-form select, .req-form textarea {
+  font: inherit; font-size: 17px; padding: 12px 14px; border: 1px solid #CFC6B2; border-radius: 12px; background: #FFFFFF; color: var(--ink); min-height: 48px; width: 100%; box-sizing: border-box;
+}
+.cert-form button { margin-top: 8px; }
+.certificate { aspect-ratio: 11 / 8.5; background: #FFFDF7; border: 10px double var(--accent); border-radius: 6px; padding: 5% 7%; box-sizing: border-box; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; box-shadow: 0 16px 40px rgba(14, 27, 43, 0.15); }
+.cert-logo { width: 110px; height: auto; }
+.cert-kicker { font-family: var(--brand); letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold-deep); font-weight: 700; font-size: 14px; }
+.cert-title { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 3.6vw, 44px); color: var(--blue); }
+.cert-small { color: var(--muted); font-style: italic; }
+.cert-name { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 4vw, 48px); border-bottom: 2px solid var(--accent); padding: 0 24px 4px; min-width: 60%; }
+.cert-course { font-family: var(--display); font-weight: 600; font-size: clamp(20px, 2.4vw, 28px); color: var(--ink); }
+.cert-date { color: var(--ink-soft); }
+.cert-pillars { margin-top: 8px; font-family: var(--brand); letter-spacing: 0.24em; font-size: 12px; color: var(--blue); }
+.fgrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 18px; }
+.fgrid .f { display: flex; flex-direction: column; gap: 6px; }
+.fgrid .full { grid-column: 1 / -1; }
+.price-table td:nth-child(3) { white-space: nowrap; }
+@media (max-width: 760px) { .cert-layout { grid-template-columns: 1fr; } .fgrid { grid-template-columns: 1fr; } }
+@media print {
+  .no-print, .cert-form { display: none !important; }
+  .cert-layout { display: block; }
+  .certificate { box-shadow: none; width: 100%; }
+  @page { size: landscape; margin: 0.4in; }
+}
+.anchor { display: block; position: relative; top: -96px; visibility: hidden; }
+.steps-row li { display: block; position: relative; padding: 14px 16px 14px 62px; min-height: 34px; }
+.steps-row span { position: absolute; left: 16px; top: 50%; translate: 0 -50%; }

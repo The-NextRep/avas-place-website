@@ -10,6 +10,9 @@ A plain static site, no build step needed to publish. Open `index.html` in a bro
 - `courses.html` — course catalog (**generated**, see below)
 - `course-*.html` — one full page per course (**generated**)
 - `rep-card.html` — printable Rep Card (**generated**)
+- `start.html` — Start learning free: suggested course paths by age (generated)
+- `certificate.html` — printable completion certificate (generated)
+- `schools.html` — school/district/college licenses, Title I, and the request form (generated; requests email the address in `CONTACT` in `tools/build_course_pages.py`)
 - `naythan.html` — Naythan Mulugeta athlete fundraiser
 - `styles.css` — all styling; brand colors and fonts are set at the top under `:root` (logo navy `#0B3A5C`, logo gold `#E0A93B`)
 - `site.js` — mobile menu and the marquee pause button

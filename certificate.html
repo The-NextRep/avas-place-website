@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificate — Ava's Place Foundation</title>
+  <meta name="description" content="Print an Ava&#x27;s Place course completion certificate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=Lora:ital,wght@0,600;0,700;1,600&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=202610151808">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <meta property="og:image" content="https://avasplace.org/images/og-ava-s-place.jpg">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="brand">
+        <img src="images/logo-mark-clear.webp" width="520" height="338" alt="">
+        <span class="brand-name">Ava's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0E1B2B" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#resources">Resources</a></li>
+        <li><a href="courses.html" aria-current="page">Courses</a></li>
+        <li><a href="schools.html">Schools</a></li>
+        <li><a href="naythan.html">Support Naythan</a></li>
+        <li><a href="index.html#bella">Bella Books</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#donate" class="btn btn-accent">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero bg-sky no-print">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="start.html">Start learning</a> <span aria-hidden="true">›</span> Certificate</nav>
+        <h1>Print your certificate</h1>
+        <p class="lead" style="margin-top:12px;max-width:720px">Finished a course and your Real-World Rep? Fill in your name, pick the course, and print.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container cert-layout">
+        <form class="card cert-form no-print" id="cert-form">
+          <label for="cert-name">Learner's name</label><input id="cert-name" type="text" autocomplete="name" placeholder="First and last name">
+          <label for="cert-course">Course completed</label><select id="cert-course"><option>Confidence &amp; Self-Worth</option><option>Peer Pressure &amp; Independent Choices</option><option>Handling Uncertainty &amp; Ambiguity</option><option>Conflict Resolution &amp; Compromise</option><option>Absorbing &amp; Applying Feedback</option><option>Time Management &amp; Prioritizing</option><option>Self-Direction &amp; Initiative</option><option>Resilience &amp; Perseverance</option><option>Critical Thinking &amp; Problem-Solving</option><option>SAT Prep</option><option>Entrepreneurship</option><option>Real Life Money</option><option>Online Safety &amp; Scam Smarts</option><option>NIL &amp; Recruiting</option></select>
+          <label for="cert-date">Date</label><input id="cert-date" type="date">
+          <button type="button" class="btn btn-primary" onclick="window.print()">Print certificate</button>
+        </form>
+        <div class="certificate" id="certificate" aria-live="polite">
+          <img src="images/logo-mark-clear.webp" width="520" height="338" alt="" class="cert-logo">
+          <p class="cert-kicker">Ava's Place Foundation</p>
+          <p class="cert-title">Certificate of Completion</p>
+          <p class="cert-small">This certifies that</p>
+          <p class="cert-name" id="out-name">Your Name</p>
+          <p class="cert-small">completed the course and its Real-World Rep</p>
+          <p class="cert-course" id="out-course">Confidence &amp; Self-Worth</p>
+          <p class="cert-date" id="out-date"></p>
+          <p class="cert-pillars">Support · Connection · Opportunity</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <span class="footer-brand">Ava's Place Foundation</span>
+        <p>[CITY, VA] · [CONTACT EMAIL]</p>
+        <p>[NONPROFIT STATUS · EIN]</p>
+      </div>
+      <div>
+        <span class="footer-title">Tracks</span>
+        <a href="#track-yourself">Knowing yourself</a>
+        <a href="#track-others">Working with others</a>
+        <a href="#track-manage">Managing yourself</a>
+        <a href="#track-college">College readiness</a>
+        <a href="#track-ready">Real-world readiness</a>
+      </div>
+      <div>
+        <span class="footer-title">Learn</span>
+        <a href="courses.html">Course catalog</a>
+        <a href="#c8">SAT Prep</a>
+        <a href="#c9">Entrepreneurship</a>
+      </div>
+      <div>
+        <span class="footer-title">Foundation</span>
+        <a href="index.html#about">About</a>
+        <a href="index.html#bella">Bella Books</a>
+        <a href="index.html#donate">Donate</a>
+      </div>
+    </div>
+    <div class="container legal">© <span id="year">2026</span> Ava's Place Foundation. All rights reserved.</div>
+  </footer>
+
+  <script src="site.js?v=202610151808"></script>
+</body>
+</html>
