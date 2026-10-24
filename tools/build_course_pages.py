@@ -30,6 +30,16 @@ def slug(n):
     return "course-" + re.sub(r"[^a-z0-9]+", "-", title(n).lower()).strip("-") + ".html"
 
 
+def lesson_video(n, num, ttl):
+    """Short module video, if one exists in videos/ (named <course-slug>-module-<num>.mp4)."""
+    base = slug(n)[len("course-"):-len(".html")] + f"-module-{num}"
+    if not (ROOT / "videos" / (base + ".mp4")).exists():
+        return ""
+    poster = f' poster="videos/{base}.jpg"' if (ROOT / "videos" / (base + ".jpg")).exists() else ""
+    return (f'\n            <video class="lesson-video" controls preload="none" playsinline{poster} '
+            f'aria-label="Module {num} video: {e(ttl)}"><source src="videos/{base}.mp4" type="video/mp4"></video>')
+
+
 def tidy(s):
     return re.sub(r"\s*\(source(, source)*\)", "", s or "").strip()
 
@@ -101,7 +111,7 @@ def course_page(n):
         skill = f'<p class="skill">Skill it applies: {e(s["skill"])}</p>' if s.get("skill") else ""
         out.append(f'''
           <li class="lesson" id="s{s["num"]}">
-            <div class="lesson-head"><span class="lesson-num">{unit} {s["num"]}</span><h3>{e(s["title"])}</h3></div>
+            <div class="lesson-head"><span class="lesson-num">{unit} {s["num"]}</span><h3>{e(s["title"])}</h3></div>{lesson_video(n, s["num"], s["title"])}
             <div class="beats">
               <div class="beat"><span class="beat-name">Hook</span><span class="beat-time">5–10 min</span><p>{e(s["hook"])}</p></div>
               <div class="beat rep"><span class="beat-name">Rep</span><span class="beat-time">10–30 min</span><p>{e(s["rep"])}</p></div>
