@@ -676,3 +676,7 @@ h3, .card h3 { font-family: var(--display); font-weight: 800; letter-spacing: -0
   .checks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .reg-form .consent-list .check, .check.consent { grid-column: 1 / -1; }
 }
+.founder-note { margin: 8px 0 0; background: #FFF1CF; border-radius: 24px; padding: 28px 30px; display: flex; flex-direction: column; gap: 12px; color: var(--ink); }
+.founder-note .fn-kicker { font-weight: 800; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-deep); }
+.founder-note .fn-sign { font-family: var(--display); font-weight: 800; font-size: 24px; color: var(--blue); line-height: 1.25; }
+.founder-note .fn-sign span { font-family: var(--body); font-weight: 600; font-size: 16px; color: var(--muted); }
