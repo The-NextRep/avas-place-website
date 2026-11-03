@@ -201,7 +201,7 @@ for n in ORDER:
 (ROOT / "rep-card.html").write_text(rep_card())
 print(f"Built {len(ORDER)} course pages + rep-card.html")
 
-CONTACT = "info@the-nextrep.com"   # where school / Title I / sponsor requests are emailed — change in one place
+CONTACT = "carrie@avasplace.org"   # where school / Title I / sponsor requests are emailed — change in one place
 
 PATHS = [
     ("Sprouts", "Grades K–5", "20-minute sessions with stories, games and picture cards. Best done with a parent or teacher.", [10, 15, 16, 18, 6, 12, 17, 14]),
