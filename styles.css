@@ -680,3 +680,4 @@ h3, .card h3 { font-family: var(--display); font-weight: 800; letter-spacing: -0
 .founder-note .fn-kicker { font-weight: 800; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-deep); }
 .founder-note .fn-sign { font-family: var(--display); font-weight: 800; font-size: 24px; color: var(--blue); line-height: 1.25; }
 .founder-note .fn-sign span { font-family: var(--body); font-weight: 600; font-size: 16px; color: var(--muted); }
+.mission-lead { font-size: 21px; line-height: 1.5; color: var(--ink); font-weight: 600; }
