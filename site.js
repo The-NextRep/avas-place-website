@@ -78,3 +78,38 @@
     });
   }
 })();
+
+// Mail forms (e.g. the Aspiring Athlete registration): validate, then open an
+// email with every answer filled in. Checkbox groups list only checked items.
+(function () {
+  var forms = document.querySelectorAll('form.mail-form');
+  Array.prototype.forEach.call(forms, function (f) {
+    var err = f.querySelector('[role="alert"]');
+    f.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      if (err) err.textContent = '';
+      var groups = f.querySelectorAll('[data-required]');
+      for (var i = 0; i < groups.length; i++) {
+        if (!groups[i].querySelector('input:checked')) {
+          if (err) err.textContent = 'Please choose at least one option for: ' + groups[i].getAttribute('data-required') + '.';
+          var first = groups[i].querySelector('input'); if (first) first.focus();
+          return;
+        }
+      }
+      if (!f.reportValidity()) return;
+      var answers = {}, order = [];
+      Array.prototype.forEach.call(f.elements, function (el) {
+        if (!el.name) return;
+        if ((el.type === 'checkbox' || el.type === 'radio') && !el.checked) return;
+        var v = (el.value || '').trim(); if (!v) return;
+        if (!(el.name in answers)) { answers[el.name] = []; order.push(el.name); }
+        answers[el.name].push(v);
+      });
+      var lines = order.map(function (k) { return k + ': ' + answers[k].join('; '); });
+      var subjField = f.getAttribute('data-subject-field');
+      var who = subjField && answers[subjField] ? ' — ' + answers[subjField][0] : '';
+      var subject = (f.getAttribute('data-subject') || "Ava's Place") + who;
+      location.href = 'mailto:' + f.getAttribute('data-to') + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
+    });
+  });
+})();

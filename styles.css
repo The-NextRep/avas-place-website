@@ -558,3 +558,121 @@ p { margin: 0; }
 .ess-pills { display: flex; flex-wrap: wrap; gap: 10px; }
 .ess-pill { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 18px; border-radius: 999px; background: #FFFFFF; border: 1px solid #E8D3A2; color: var(--ink); font-weight: 700; text-decoration: none; }
 .ess-pill:hover { background: var(--accent); color: var(--ink); border-color: var(--accent); }
+
+/* ===== Youth refresh (Nov 2026): sportier type, brighter accents, a little bounce ===== */
+:root {
+  --display: 'Bricolage Grotesque', 'Lora', system-ui, sans-serif;
+  --pop-orange: #F07A2A;
+  --pop-coral: #FF4F6D;
+  --pop-green: #1F9D5C;
+  --pop-blue: #2F5DD8;
+  --pop-purple: #7A4DE0;
+  --field: #2E9E5B;
+}
+h1, h2, .display { font-family: var(--display); font-weight: 800; letter-spacing: -0.025em; }
+h3, .card h3 { font-family: var(--display); font-weight: 800; letter-spacing: -0.01em; }
+.eyebrow {
+  display: inline-block; background: #FFF1CF; color: var(--gold-deep);
+  padding: 6px 14px; border-radius: 999px; font-size: 13px; letter-spacing: 0.1em;
+}
+.bg-ink .eyebrow, .eyebrow.gold { background: #FFF1CF; }
+.btn { transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease; }
+.btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(14, 27, 43, 0.16); }
+.btn-accent { background: var(--accent); }
+.card { border-radius: 24px; transition: transform .2s ease, box-shadow .2s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(14, 27, 43, 0.12); }
+.icon-tile { border-radius: 18px; }
+.nav-links a[href="athletes.html"] { color: var(--pop-orange) !important; font-weight: 800; }
+
+/* Homepage athlete band */
+.athlete-band { background: linear-gradient(135deg, #0B3A5C 0%, #16588A 100%); color: #FFFFFF; border-radius: 32px; padding: 48px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; overflow: hidden; position: relative; }
+.athlete-band .ab-copy { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px; position: relative; z-index: 1; }
+.athlete-band h2 { color: #FFFFFF; }
+.athlete-band p { color: #D6E4F1; font-size: 19px; }
+.athlete-band .eyebrow { background: rgba(255, 255, 255, 0.14); color: #FFE7A3; }
+.athlete-band .btn-ghost { color: #FFFFFF; border-color: rgba(255, 255, 255, 0.8); }
+.athlete-band .btn-ghost:hover { background: #FFFFFF; color: var(--ink); }
+.sport-grid { flex: 1 1 360px; min-width: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; position: relative; z-index: 1; }
+.sport-grid img { width: 100%; height: auto; border-radius: 22px; transition: transform .25s ease; }
+.sport-grid img:nth-child(odd) { transform: rotate(-3deg); }
+.sport-grid img:nth-child(even) { transform: rotate(3deg) translateY(10px); }
+.sport-grid img:hover { transform: rotate(0) scale(1.06); }
+
+/* ===== Aspiring Athlete Program pages ===== */
+.aap-hero { position: relative; color: #FFFFFF; background: #0B3A5C url("images/sports/hero.svg") center bottom / cover no-repeat; overflow: hidden; }
+.aap-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(5, 20, 36, 0.9) 0%, rgba(5, 20, 36, 0.72) 45%, rgba(5, 20, 36, 0.25) 100%); }
+.aap-hero .container { position: relative; padding-top: 110px; padding-bottom: 120px; display: flex; flex-direction: column; align-items: flex-start; gap: 20px; max-width: 1200px; }
+.aap-hero .eyebrow { background: var(--accent); color: var(--ink); }
+.aap-hero h1 { color: #FFFFFF; font-size: clamp(46px, 7.4vw, 96px); line-height: 0.95; max-width: 900px; text-transform: uppercase; }
+.aap-hero h1 .hl { color: #FFD45C; }
+.aap-hero .lead { color: #E6EEF6; font-size: 21px; max-width: 640px; }
+.aap-hero .btn-ghost { color: #FFFFFF; border-color: rgba(255, 255, 255, 0.85); }
+.aap-hero .btn-ghost:hover { background: #FFFFFF; color: var(--ink); }
+.btn-lg { min-height: 56px; padding: 16px 32px; font-size: 19px; }
+.ticker { background: var(--accent); color: var(--ink); overflow: hidden; white-space: nowrap; font-family: var(--display); font-weight: 800; font-size: 20px; letter-spacing: 0.04em; text-transform: uppercase; }
+.ticker-track { display: inline-flex; gap: 40px; padding: 14px 0; animation: marquee-left 40s linear infinite; }
+.ticker-track span::after { content: "★"; margin-left: 40px; color: var(--blue); }
+.creed { font-family: var(--display); font-weight: 800; font-size: clamp(28px, 3.6vw, 46px); line-height: 1.15; letter-spacing: -0.02em; color: var(--blue); max-width: 980px; }
+.creed em { font-style: normal; color: var(--pop-orange); }
+.creed-by { margin-top: 16px; font-weight: 700; color: var(--muted); }
+.cover-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.cover-card { border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 10px; border: 0; transition: transform .2s ease; }
+.cover-card:hover { transform: translateY(-4px) rotate(-0.5deg); }
+.cover-card img { width: 96px; height: 96px; border-radius: 20px; }
+.cover-card h3 { font-size: 24px; }
+.cover-card p { color: var(--ink-soft); font-size: 17px; }
+.cc-orange { background: #FFE3CC; } .cc-green { background: #D9F5E5; } .cc-blue { background: #E3ECFF; } .cc-coral { background: #FFE0E6; }
+.steps-play { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; counter-reset: step; }
+.step-play { background: #FFFFFF; border: 2px solid var(--line); border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 10px; }
+.step-num { font-family: var(--display); font-weight: 800; font-size: 56px; line-height: 1; color: var(--pop-orange); }
+.who-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+.who-chip { background: #FFFFFF; border-radius: 18px; padding: 18px 20px; font-weight: 700; border: 2px solid #D6E4F1; }
+.who-chip small { display: block; font-weight: 400; color: var(--ink-soft); font-size: 15px; margin-top: 4px; }
+.cta-split { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.cta-card .eyebrow, .ab-copy .eyebrow, .aap-hero .eyebrow { align-self: flex-start; }
+.cta-apply .eyebrow { background: rgba(255, 255, 255, 0.14); color: #FFE7A3; }
+.cta-card { border-radius: 28px; padding: 40px; display: flex; flex-direction: column; gap: 14px; }
+.cta-card h2 { font-size: clamp(30px, 3.2vw, 42px); }
+.cta-apply { background: var(--blue); color: #FFFFFF; }
+.cta-apply h2 { color: #FFFFFF; }
+.cta-apply p { color: #D6E4F1; }
+.cta-give { background: #FFF1CF; }
+.cta-give p { color: var(--ink-soft); }
+.fine { font-size: 15px; color: var(--muted); }
+.cta-apply .fine { color: #B9CCE0; }
+
+/* Registration form */
+.reg-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 40px; align-items: start; }
+.reg-aside { position: sticky; top: 96px; display: flex; flex-direction: column; gap: 16px; }
+.reg-aside img { width: 100%; max-width: 280px; border-radius: 24px; }
+.reg-form { display: flex; flex-direction: column; gap: 28px; }
+.reg-form fieldset { border: 2px solid var(--line); border-radius: 24px; padding: 24px 28px 28px; margin: 0; background: #FFFFFF; }
+.reg-form legend { font-family: var(--display); font-weight: 800; font-size: 22px; padding: 0 10px; color: var(--blue); }
+.reg-form .step-tag { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: var(--pop-orange); color: #FFFFFF; font-size: 16px; margin-right: 8px; }
+.checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.check { display: flex; gap: 10px; align-items: flex-start; background: var(--mist); border: 2px solid var(--line); border-radius: 14px; padding: 12px 14px; cursor: pointer; font-weight: 600; }
+.check input { width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--blue); flex: none; }
+.check.consent { background: #FFFFFF; font-weight: 400; }
+.req-note { font-size: 15px; color: var(--muted); }
+@media (max-width: 860px) {
+  .reg-wrap { grid-template-columns: 1fr; }
+  .reg-aside { position: static; }
+  .athlete-band { padding: 32px 24px; }
+  .aap-hero .container { padding-top: 72px; padding-bottom: 84px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; }
+  .btn:hover, .card:hover, .cover-card:hover, .sport-grid img:hover { transform: none; }
+}
+.reg-form label:not(.check) { font-weight: 700; font-size: 15px; }
+.reg-form input:not([type="checkbox"]), .reg-form select, .reg-form textarea {
+  font: inherit; font-size: 17px; padding: 12px 14px; border: 2px solid #D9D0BC; border-radius: 14px; background: #FFFFFF; color: var(--ink); min-height: 50px; width: 100%; box-sizing: border-box;
+}
+.reg-form input:focus, .reg-form select:focus, .reg-form textarea:focus { border-color: var(--blue); outline: none; box-shadow: 0 0 0 3px rgba(11, 58, 92, 0.18); }
+.check:has(input:checked) { background: #FFF1CF; border-color: var(--accent); }
+@media (max-width: 860px) {
+  .reg-aside img { display: none; }
+  .reg-form fieldset { padding: 18px 16px 20px; }
+  .checks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .reg-form .consent-list .check, .check.consent { grid-column: 1 / -1; }
+}

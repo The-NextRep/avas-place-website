@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register Your Athlete — Aspiring Athlete Program — Ava's Place Foundation</title>
+  <meta name="description" content="Parents and guardians can register their athlete for the Ava's Place Aspiring Athlete Program: training, showcase access, gear and stable housing support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&amp;family=Cinzel:wght@600;700&amp;family=Lora:ital,wght@0,600;0,700;1,600&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=202611031200">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <meta property="og:title" content="Aspiring Athlete Program — Ava's Place Foundation">
+  <meta property="og:description" content="Dream big. Train hard. Rise. Help young athletes get to the next level with training, showcase access, gear and stable housing.">
+  <meta property="og:image" content="https://avasplace.org/images/sports/hero.svg">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="brand">
+        <img src="images/logo-mark-clear.webp" width="520" height="338" alt="">
+        <span class="brand-name">Ava's Place</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0E1B2B" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html#resources">Resources</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="athletes.html">Athletes</a></li>
+        <li><a href="naythan.html">Support Naythan</a></li>
+        <li><a href="index.html#bella">Bella Books</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#donate" class="btn btn-accent">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="aap-hero">
+      <div class="container" style="padding-top:80px;padding-bottom:90px">
+        <p class="eyebrow">Aspiring Athlete Program · Registration</p>
+        <h1>Every journey starts<br><span class="hl">with a yes.</span></h1>
+        <p class="lead">Parents and guardians, register your athlete below. It takes about 10 minutes, and there's no cost to apply.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reg-wrap">
+        <aside class="reg-aside">
+          <img src="images/sports/basketball.svg" width="400" height="400" alt="" aria-hidden="true">
+          <h2 style="font-size:30px">What happens next</h2>
+          <ol class="soft" style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px">
+            <li>Your registration opens in your email, ready to send to Ava's Place.</li>
+            <li>We review it and reach out to your family within about two weeks.</li>
+            <li>We talk through goals and what support fits best.</li>
+          </ol>
+          <p class="req-note">Questions? <a href="mailto:carrie@avasplace.org">carrie@avasplace.org</a></p>
+          <p class="req-note">Registering doesn't guarantee support. Ava's Place decides awards using written criteria, including need, readiness and commitment.</p>
+        </aside>
+
+        <form class="reg-form mail-form" id="reg-form" data-to="carrie@avasplace.org" data-subject="Aspiring Athlete Program registration" data-subject-field="Athlete name">
+          <fieldset>
+            <legend><span class="step-tag">1</span>Parent or guardian</legend>
+            <div class="fgrid">
+              <div class="f"><label for="p-name">Full name *</label><input id="p-name" name="Parent/guardian name" autocomplete="name" required></div>
+              <div class="f"><label for="p-rel">Relationship to athlete *</label>
+                <select id="p-rel" name="Relationship" required><option value="">Choose one</option><option>Parent</option><option>Legal guardian</option><option>Grandparent</option><option>Other family member</option><option>I'm the athlete (18 or older)</option></select></div>
+              <div class="f"><label for="p-email">Email *</label><input id="p-email" name="Email" type="email" autocomplete="email" required></div>
+              <div class="f"><label for="p-phone">Phone *</label><input id="p-phone" name="Phone" type="tel" autocomplete="tel" required></div>
+              <div class="f"><label for="p-city">City and state *</label><input id="p-city" name="City and state" autocomplete="address-level2" required></div>
+              <div class="f"><label for="p-contact">Best way to reach you</label>
+                <select id="p-contact" name="Preferred contact"><option>Phone call</option><option>Text</option><option>Email</option></select></div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="step-tag">2</span>Your athlete</legend>
+            <div class="fgrid">
+              <div class="f"><label for="a-name">Athlete's full name *</label><input id="a-name" name="Athlete name" required></div>
+              <div class="f"><label for="a-age">Age *</label><input id="a-age" name="Age" inputmode="numeric" required></div>
+              <div class="f"><label for="a-grade">Grade or year *</label>
+                <select id="a-grade" name="Grade" required><option value="">Choose one</option><option>6th</option><option>7th</option><option>8th</option><option>9th</option><option>10th</option><option>11th</option><option>12th</option><option>College</option><option>Graduated</option></select></div>
+              <div class="f"><label for="a-school">School *</label><input id="a-school" name="School" required></div>
+              <div class="f full"><span class="label-like" id="sport-lbl" style="font-weight:600">Sport(s) *</span>
+                <div class="checks" role="group" aria-labelledby="sport-lbl" data-required="Sport"><label class="check"><input type="checkbox" name="Sport" value="Football"> Football</label><label class="check"><input type="checkbox" name="Sport" value="Basketball"> Basketball</label><label class="check"><input type="checkbox" name="Sport" value="Soccer"> Soccer</label><label class="check"><input type="checkbox" name="Sport" value="Track &amp; field"> Track &amp; field</label><label class="check"><input type="checkbox" name="Sport" value="Volleyball"> Volleyball</label><label class="check"><input type="checkbox" name="Sport" value="Baseball"> Baseball</label><label class="check"><input type="checkbox" name="Sport" value="Softball"> Softball</label><label class="check"><input type="checkbox" name="Sport" value="Wrestling"> Wrestling</label><label class="check"><input type="checkbox" name="Sport" value="Other"> Other</label></div></div>
+              <div class="f"><label for="a-pos">Position or event</label><input id="a-pos" name="Position" placeholder="e.g. wide receiver, point guard, 400m"></div>
+              <div class="f"><label for="a-level">Current level</label>
+                <select id="a-level" name="Level"><option>Recreation league</option><option>Club or travel team</option><option>School team (JV)</option><option>School team (varsity)</option><option>College</option></select></div>
+              <div class="f"><label for="a-years">Years playing</label><input id="a-years" name="Years playing" inputmode="numeric"></div>
+              <div class="f"><label for="a-team">Current team (optional)</label><input id="a-team" name="Current team"></div>
+              <div class="f"><label for="a-coach">Coach's name (optional)</label><input id="a-coach" name="Coach name"></div>
+              <div class="f"><label for="a-coach-email">Coach's email or phone (optional)</label><input id="a-coach-email" name="Coach contact"></div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="step-tag">3</span>Goals and support</legend>
+            <div class="fgrid">
+              <div class="f full"><span id="need-lbl" style="font-weight:600">What support would help most? *</span>
+                <div class="checks" role="group" aria-labelledby="need-lbl" data-required="Support needed"><label class="check"><input type="checkbox" name="Support needed" value="Training &amp; coaching"> Training &amp; coaching</label><label class="check"><input type="checkbox" name="Support needed" value="Camp or showcase access"> Camp or showcase access</label><label class="check"><input type="checkbox" name="Support needed" value="Travel to events"> Travel to events</label><label class="check"><input type="checkbox" name="Support needed" value="Stable housing support"> Stable housing support</label><label class="check"><input type="checkbox" name="Support needed" value="Equipment &amp; gear"> Equipment &amp; gear</label><label class="check"><input type="checkbox" name="Support needed" value="Life-skills courses"> Life-skills courses</label><label class="check"><input type="checkbox" name="Support needed" value="Mentorship"> Mentorship</label></div></div>
+              <div class="f full"><label for="g-goal">What is your athlete working toward? *</label><textarea id="g-goal" name="Goals" rows="4" required placeholder="Making varsity, a college roster spot, a scholarship, an upcoming showcase…"></textarea></div>
+              <div class="f full"><label for="g-event">Any upcoming camp, showcase or season dates?</label><input id="g-event" name="Upcoming events"></div>
+              <div class="f full"><label for="g-more">Anything else you'd like us to know?</label><textarea id="g-more" name="More about the athlete" rows="4" placeholder="Their story, challenges you're facing, what makes them special…"></textarea></div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="step-tag">4</span>Permission</legend>
+            <div style="display:flex;flex-direction:column;gap:10px">
+              <label class="check consent"><input type="checkbox" name="Confirms" value="I am the athlete's parent or legal guardian, or the athlete is 18 or older" required> I am the athlete's parent or legal guardian, or I am the athlete and 18 or older. *</label>
+              <label class="check consent"><input type="checkbox" name="Confirms" value="Information is accurate" required> The information in this registration is accurate to the best of my knowledge. *</label>
+              <label class="check consent"><input type="checkbox" name="Confirms" value="OK to contact the family and coach" required> Ava's Place may contact me, and my athlete's coach if listed, about this registration. *</label>
+              <label class="check consent"><input type="checkbox" name="Confirms" value="Understands registration does not guarantee support" required> I understand that registering does not guarantee support. *</label>
+            </div>
+          </fieldset>
+
+          <div style="display:flex;flex-direction:column;gap:10px;align-items:flex-start">
+            <button type="submit" class="btn btn-accent btn-lg">Send registration</button>
+            <p class="req-note">Submitting opens your email with everything filled in. Just press send. * Required</p>
+            <p class="req-note" id="reg-error" role="alert" style="color:#B3261E"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <span class="footer-brand">Ava's Place Foundation</span>
+        <p>Herndon, VA · <a href="mailto:carrie@avasplace.org">carrie@avasplace.org</a></p>
+        <p>A 501(c)(3) nonprofit organization · EIN 39-4796114</p>
+      </div>
+      <div>
+        <span class="footer-title">Resources</span>
+        <a href="index.html#youth">Youth</a>
+        <a href="index.html#families">Families</a>
+        <a href="index.html#disability">Disability community</a>
+        <a href="index.html#athletes">Aspiring athletes</a>
+      </div>
+      <div>
+        <span class="footer-title">Learn</span>
+        <a href="courses.html">Course catalog</a>
+        <a href="courses.html#c8">SAT Prep</a>
+        <a href="courses.html#c9">Entrepreneurship</a>
+      </div>
+      <div>
+        <span class="footer-title">Foundation</span>
+        <a href="index.html#about">About</a>
+        <a href="athletes.html">Aspiring Athlete Program</a>
+        <a href="naythan.html">Support Naythan</a>
+        <a href="index.html#donate">Donate</a>
+      </div>
+    </div>
+    <div class="container legal">© <span id="year">2026</span> Ava's Place Foundation. All rights reserved.</div>
+  </footer>
+
+  <script src="site.js?v=202611031200"></script>
+</body>
+</html>
