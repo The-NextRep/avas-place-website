@@ -157,8 +157,6 @@
             <ul>
               <li><a href="course-my-voice-my-plan.html">My Voice, My Plan: self-advocacy course</a></li>
               <li>Self-paced courses, any device</li>
-              <li>[ADAPTIVE PROGRAMS &amp; PARTNERS]</li>
-              <li>[ADVOCACY &amp; BENEFITS GUIDES]</li>
             </ul>
             <a href="course-my-voice-my-plan.html" class="text-link push">Self-advocacy course →</a>
           </article>
@@ -394,7 +392,7 @@
           <div class="card">
             <h3>Donate</h3>
             <p class="soft">Help keep every course free for families.</p>
-            <a href="#[DONATION LINK]" class="btn btn-accent push self-start">Give today</a>
+            <a href="mailto:carrie@avasplace.org?subject=I%20would%20like%20to%20donate%20to%20Ava%27s%20Place" class="btn btn-accent push self-start">Give today</a>
           </div>
           <div class="card">
             <h3>Sponsor a school</h3>
@@ -417,11 +415,11 @@
           <h2>Get new courses in your inbox</h2>
           <p>One short email when something new launches.</p>
         </div>
-        <!-- Point action="" at your email provider's signup form URL -->
-        <form action="#" method="post">
+        <!-- Opens a pre-filled email to the foundation (site.js mail-form). Swap for an email provider's signup form when there is one. -->
+        <form class="mail-form" data-to="carrie@avasplace.org" data-subject="Please add me to Ava's Place course updates">
           <div class="field">
             <label for="email">Email address</label>
-            <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+            <input id="email" name="Email" type="email" placeholder="you@example.com" autocomplete="email" required>
           </div>
           <button type="submit" class="btn btn-accent">Subscribe</button>
         </form>

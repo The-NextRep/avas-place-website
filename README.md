@@ -45,7 +45,8 @@ Audiences without photos use the illustrated scenes in `images/marquee/*.svg` (r
 Search for `[` in `index.html` and `tools/courses.template.html`:
 
 - Contact email, city, nonprofit status / EIN
-- Donation link and Amazon links for the Bella books
+- A real donation link: "Give today" on the homepage opens an email to the foundation for now (Nov 27 2026)
+- Adaptive programs & partners and advocacy & benefits guides for the Disability community card (the placeholders were removed until there is content)
 - Founder story behind the name
 - Local support directory, adaptive programs & partners, advocacy & benefits guides
-- Newsletter form `action` URL (from your email provider)
+- Newsletter: "Subscribe" opens a pre-filled email to the foundation for now; swap for an email provider's signup form when there is one
